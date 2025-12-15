@@ -1,0 +1,161 @@
+2024-06-19T09:36:08.7797400-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-19T09:36:08.7842653-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-19T09:36:08.7893451-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-19T09:36:08.7926476-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-19T09:36:08.7940548-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-19T09:40:41.1750417-07:00 0HN4GFNM2UQ8C:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 193
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-19T09:40:41.5298693-07:00 0HN4GFNM2UQ8C:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 91
+     },
+     {
+           \"userId\": 93
+     }],
+     \"text\": \"TEST Group Call\"
+}" (6d42d084)
+2024-06-19T09:42:49.6242825-07:00 0HN4GFNM2UQ8C:00000002 [INF] First Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (fe9fd418)
+2024-06-19T09:43:37.8253776-07:00 0HN4GFNM2UQ8C:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (86198c2c)
+2024-06-19T09:44:30.1185783-07:00  [INF] start ...  (32234bea)
+2024-06-19T09:44:30.1387993-07:00 0HN4GFNM2UQ8C:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-06-19T09:44:30.1451522-07:00 0HN4GFNM2UQ8C:00000002 [INF] ResponseBody: "{\"reminderId\":494,\"timeStamp\":\"06/19/2024 16:40:48\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-19T09:44:30.2919941-07:00  [INF] For ReminderId 494 in Loop 1 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (2ae7a1ca)
+2024-06-19T09:44:30.4534565-07:00  [INF] For ReminderId 494 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (e7e4f965)
+2024-06-19T09:44:35.5916832-07:00 0HN4GFNM2UQ8C:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 193
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-19T09:44:35.5953210-07:00 0HN4GFNM2UQ8C:00000003 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 91
+     },
+     {
+           \"userId\": 93
+     }],
+     \"text\": \"TEST Group Call\"
+}" (6d42d084)
+2024-06-19T09:45:35.7748364-07:00  [INF] For ReminderId 494 in Loop 2 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (c32e5dac)
+2024-06-19T09:45:36.3984496-07:00  [INF] For ReminderId 494 in Loop 2 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (b4504b58)
+2024-06-19T09:46:06.0237646-07:00 0HN4GFNM2UQ8C:00000003 [INF] First Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (fe9fd418)
+2024-06-19T09:46:08.9243859-07:00  [INF] For ReminderId 494 in Loop 3 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (d8514c7c)
+2024-06-19T09:46:15.1798857-07:00  [INF] For ReminderId 494 in Loop 3 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (cfacc89a)
+2024-06-19T09:47:24.2487616-07:00  [INF] For ReminderId 494 in Loop 4 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (b6a4e0c0)
+2024-06-19T09:47:24.3010769-07:00 0HN4GFNM2UQ8C:00000003 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (86198c2c)
+2024-06-19T09:47:29.1813449-07:00  [INF] For ReminderId 494 in Loop 4 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (1e17bad3)
+2024-06-19T12:21:44.4727407-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-19T12:21:44.4810190-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-19T12:21:44.4868243-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-19T12:21:44.4909032-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-19T12:21:44.4944949-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-19T12:23:38.8195502-07:00 0HN4GIK7532FT:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 193
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-19T12:23:39.1518433-07:00 0HN4GIK7532FT:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 91
+     },
+     {
+           \"userId\": 93
+     }],
+     \"text\": \"TEST Group Call\"
+}" (6d42d084)
+2024-06-19T12:24:10.6401124-07:00 0HN4GIK7532FT:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (86198c2c)
+2024-06-19T12:24:22.9438310-07:00 0HN4GIK7532FT:00000002 [INF] First Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (fe9fd418)
+2024-06-19T12:24:34.1368506-07:00  [INF] start ...  (32234bea)
+2024-06-19T12:24:34.2144597-07:00 0HN4GIK7532FT:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-06-19T12:24:34.2302076-07:00 0HN4GIK7532FT:00000002 [INF] ResponseBody: "{\"reminderId\":496,\"timeStamp\":\"06/19/2024 19:23:44\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-19T12:24:35.3590017-07:00  [INF] For ReminderId 496 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (ba8f2936)
+2024-06-19T12:24:45.2481637-07:00  [INF] For ReminderId 496 in Loop 1 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (63adda61)
+2024-06-19T12:25:15.4261392-07:00  [INF] For ReminderId 496 in Loop 2 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (d23eb7e0)
+2024-06-19T12:25:15.6157744-07:00  [INF] For ReminderId 496 in Loop 2 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (1cac604d)
+2024-06-19T12:25:45.7689423-07:00  [INF] For ReminderId 496 in Loop 3 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (9c24def5)
+2024-06-19T12:25:45.9469000-07:00  [INF] For ReminderId 496 in Loop 3 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (85f57fed)
+2024-06-19T12:26:16.1371404-07:00  [INF] For ReminderId 496 in Loop 4 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (f1b1aa1e)
+2024-06-19T12:26:16.3081843-07:00  [INF] For ReminderId 496 in Loop 4 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (38993da6)
+2024-06-19T12:26:46.5300613-07:00  [INF] For ReminderId 496 in Loop 5 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (6a4baf8a)
+2024-06-19T12:26:46.7347313-07:00  [INF] For ReminderId 496 in Loop 5 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (fdc371b7)
+2024-06-19T12:27:04.2548778-07:00 0HN4GIK7532FT:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 168
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-19T12:27:04.2641098-07:00 0HN4GIK7532FT:00000003 [INF] RequestBody: "{
+   \"authtoken\": \"3B3F1F61-28B7-464C-9AF8-4D33C43BCC4C\",
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+}" (6d42d084)
+2024-06-19T12:27:19.8545387-07:00  [INF] For ReminderId 496 in Loop 6 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (c967160e)
+2024-06-19T12:27:27.2794906-07:00  [INF] For ReminderId 496 in Loop 6 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (3845da51)
+2024-06-19T12:28:08.1498529-07:00  [INF] For ReminderId 496 in Loop 7 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (116bff45)
+2024-06-19T12:28:14.8666301-07:00  [INF] For ReminderId 496 in Loop 7 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (7d0f24d9)
+2024-06-19T12:29:05.1166764-07:00 0HN4GIK7532FT:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 190 (999214c4)
+2024-06-19T12:29:05.1195882-07:00 0HN4GIK7532FT:00000003 [INF] ResponseBody: "{\"channelId\":\"NGI4TPZDWMDMNV0DBI6N\",\"callToken\":\"006af87b56cb96a4d539f0171d842e3e7e2IAAJt8ZpRpmC01wPpBdkk0IO+jwIX64OgQ2L9J0S6ARZSjzz6FgICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-19T12:29:07.6014307-07:00  [INF] For ReminderId 496 in Loop 8 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call-Bar (6cd3890a)
+2024-06-19T12:29:11.7720227-07:00  [INF] For ReminderId 496 in Loop 8 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call-Bar (8c82fd6b)

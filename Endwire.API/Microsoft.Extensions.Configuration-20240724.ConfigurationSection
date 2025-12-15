@@ -1,0 +1,396 @@
+2024-07-24T00:37:43.5604584-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T00:37:43.5681500-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T00:37:43.5734727-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T00:37:43.5771827-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T00:37:43.5787263-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T00:52:21.9285654-07:00 0HN5BME0KF05H:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T00:52:22.4188714-07:00 0HN5BME0KF05H:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T00:58:10.7107177-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T00:58:10.7158650-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T00:58:10.7206643-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T00:58:10.7232856-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T00:58:10.7247879-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T00:58:25.3403522-07:00 0HN5BMPEC6M31:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T00:58:25.6913433-07:00 0HN5BMPEC6M31:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T01:00:59.2790036-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T01:00:59.2873444-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T01:00:59.2938415-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T01:00:59.2973452-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T01:00:59.2995192-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T01:01:08.7442846-07:00 0HN5BMR0M57RB:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T01:01:09.1132004-07:00 0HN5BMR0M57RB:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T01:03:26.1210678-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T01:03:26.1265914-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T01:03:26.1324965-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T01:03:26.1357224-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T01:03:26.1374338-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T01:03:34.3896597-07:00 0HN5BMSCBCU3P:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T01:03:34.7679956-07:00 0HN5BMSCBCU3P:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T01:04:12.5279958-07:00 0HN5BMSCBCU3P:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 72 (999214c4)
+2024-07-24T01:04:12.5451674-07:00 0HN5BMSCBCU3P:00000002 [INF] ResponseBody: "{\"callStatus\":\"\",\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2024-07-24T01:04:20.0096553-07:00 0HN5BMSCBCU3P:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T01:04:20.0133316-07:00 0HN5BMSCBCU3P:00000003 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T01:05:38.2485934-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T01:05:38.2531739-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T01:05:38.2576389-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T01:05:38.2609079-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T01:05:38.2623510-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T01:05:44.8105992-07:00 0HN5BMTJQIB1P:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T01:05:45.2041941-07:00 0HN5BMTJQIB1P:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T12:05:03.0986191-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T12:05:03.1149187-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T12:05:03.1298433-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T12:05:03.1363326-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T12:05:03.1400669-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T12:05:13.2830206-07:00 0HN5C2E30NHEH:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T12:05:13.7517150-07:00 0HN5C2E30NHEH:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T12:06:10.6910649-07:00 0HN5C2E30NHEH:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 72 (999214c4)
+2024-07-24T12:06:10.7028807-07:00 0HN5C2E30NHEH:00000002 [INF] ResponseBody: "{\"callStatus\":\"\",\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2024-07-24T12:06:25.5797870-07:00 0HN5C2E30NHEH:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T12:06:25.5879471-07:00 0HN5C2E30NHEH:00000003 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-24T16:55:59.1066392-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T16:55:59.1159996-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T16:55:59.1234827-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T16:55:59.1282459-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T16:55:59.1308861-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T22:19:52.0260845-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T22:19:52.0393931-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T22:19:52.0505209-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T22:19:52.0578529-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T22:19:52.0602822-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T22:24:08.8833301-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T22:24:08.8963001-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T22:24:08.9084322-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T22:24:08.9149223-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T22:24:08.9185047-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T22:25:05.7471592-07:00 0HN5CD81A80CK:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T22:25:06.3532325-07:00 0HN5CD81A80CK:00000002 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-24T22:25:23.2892103-07:00 0HN5CD81A80CK:00000002 [INF] Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8
+Content-Length: 90 (999214c4)
+2024-07-24T22:25:23.3013949-07:00 0HN5CD81A80CK:00000002 [INF] ResponseBody: "{\"channelId\":null,\"callToken\":null,\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2024-07-24T22:26:49.5809884-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T22:26:49.5968821-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T22:26:49.6103906-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T22:26:49.6174031-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T22:26:49.6226057-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T22:27:04.2365451-07:00 0HN5CD9H7UCPH:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T22:27:04.5931794-07:00 0HN5CD9H7UCPH:00000002 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-24T22:27:17.1385156-07:00 0HN5CD9H7UCPH:00000002 [INF] Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8
+Content-Length: 86 (999214c4)
+2024-07-24T22:27:17.1504361-07:00 0HN5CD9H7UCPH:00000002 [INF] ResponseBody: "{\"channelId\":\"\",\"callToken\":\"\",\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2024-07-24T22:28:23.4201234-07:00 0HN5CD9H7UCPH:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T22:28:23.4378639-07:00 0HN5CD9H7UCPH:00000003 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-24T22:29:13.0299675-07:00 0HN5CD9H7UCPH:00000003 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"title":"Incoming Call","text":"Incoming Call from Guy Nice","status":"Incoming Call","timeStamp":"7/24/2024 10:28:27 PM","type":"Reminder","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\"},{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\"}]","startedBy":"{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\"}","callInfo":"{\"channelId\":\"A7PJ7BYUCIW0M3P4EB9M\",\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAB+AdeHQh8nMzqkPoHkz5D37eCCSpLGDlWbj95IzKaueWW3kh0ICRGAEAABAAAAR/QQAAEAAQCvKDdW\"}"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (e0f93769)
+2024-07-24T22:30:04.3213460-07:00 0HN5CD9H7UCPH:00000003 [INF] {"token":"d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd","condition":null,"data":{"title":"Incoming Call","text":"Incoming Call from Guy Nice","status":"Incoming Call","timeStamp":"7/24/2024 10:29:39 PM","type":"Reminder","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\"},{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\"}]","startedBy":"{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\"}","callInfo":"{\"channelId\":\"A7PJ7BYUCIW0M3P4EB9M\",\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAB+AdeHQh8nMzqkPoHkz5D37eCCSpLGDlWbj95IzKaueWW3kh0ICRGAEAABAAAAR/QQAAEAAQCvKDdW\"}"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (479828a2)
+2024-07-24T22:33:23.2027362-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T22:33:23.2082064-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T22:33:23.2139176-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T22:33:23.2169385-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T22:33:23.2196961-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T22:33:34.6485388-07:00 0HN5CDD6F07EP:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T22:33:34.9987099-07:00 0HN5CDD6F07EP:00000002 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-24T22:35:48.3265263-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-24T22:35:48.3384167-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-24T22:35:48.3482531-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-24T22:35:48.3548754-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-24T22:35:48.3595115-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-24T22:36:01.3881215-07:00 0HN5CDEHO1AR4:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T22:36:01.8575650-07:00 0HN5CDEHO1AR4:00000002 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-24T22:36:32.1108467-07:00 0HN5CDEHO1AR4:00000002 [INF] Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8
+Content-Length: 86 (999214c4)
+2024-07-24T22:36:32.1201104-07:00 0HN5CDEHO1AR4:00000002 [INF] ResponseBody: "{\"channelId\":\"\",\"callToken\":\"\",\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2024-07-24T22:36:45.8286607-07:00 0HN5CDEHO1AR4:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-24T22:36:45.8357154-07:00 0HN5CDEHO1AR4:00000003 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-24T22:36:50.2780227-07:00 0HN5CDEHO1AR4:00000003 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"title":"Incoming Call","text":"Incoming Call from Guy Nice","status":"Incoming Call","timeStamp":"7/24/2024 10:36:48 PM","type":"Reminder","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\"},{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\"}]","startedBy":"{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\"}","callInfo":"{\"channelId\":\"YKY0YZACEDPR7XFWQ98B\",\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IADPbhlbuZlZzH0ZwFNg3sRAVg6Gl+2sSEgwM5PBTFDc8JRJlYAICRGAEAABAAAAR/QQAAEAAQCvKDdW\"}"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (0f8a0698)
+2024-07-24T22:37:08.2441853-07:00 0HN5CDEHO1AR4:00000003 [INF] {"token":"d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd","condition":null,"data":{"title":"Incoming Call","text":"Incoming Call from Guy Nice","status":"Incoming Call","timeStamp":"7/24/2024 10:37:01 PM","type":"Reminder","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\"},{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\"}]","startedBy":"{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\"}","callInfo":"{\"channelId\":\"YKY0YZACEDPR7XFWQ98B\",\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IADPbhlbuZlZzH0ZwFNg3sRAVg6Gl+2sSEgwM5PBTFDc8JRJlYAICRGAEAABAAAAR/QQAAEAAQCvKDdW\"}"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (5e605e42)
+2024-07-24T22:37:30.7874726-07:00 0HN5CDEHO1AR4:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 191 (999214c4)
+2024-07-24T22:37:30.7901565-07:00 0HN5CDEHO1AR4:00000003 [INF] ResponseBody: "{\"channelId\":\"YKY0YZACEDPR7XFWQ98B\",\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IADPbhlbuZlZzH0ZwFNg3sRAVg6Gl+2sSEgwM5PBTFDc8JRJlYAICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"BadToken\"}" (c7a8e6fd)

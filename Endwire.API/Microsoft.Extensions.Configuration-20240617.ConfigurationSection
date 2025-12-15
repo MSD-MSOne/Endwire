@@ -1,0 +1,59 @@
+2024-06-17T15:36:38.7279114-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-17T15:36:38.7389868-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-17T15:36:38.7470497-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-17T15:36:38.7540800-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-17T15:36:38.7566549-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-17T15:38:11.2349835-07:00 0HN4F3NPTJUTL:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 185
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-17T15:38:11.6978741-07:00 0HN4F3NPTJUTL:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST 1\"
+}" (6d42d084)
+2024-06-17T15:43:32.3926013-07:00 0HN4F3NPTJUTL:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (84038611)
+2024-06-17T15:45:04.4198430-07:00 0HN4F3NPTJUTL:00000002 [INF] First Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (b5dd6b8f)
+2024-06-17T15:47:26.4706411-07:00  [INF] start ...  (32234bea)
+2024-06-17T15:47:26.5543468-07:00 0HN4F3NPTJUTL:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-06-17T15:47:26.5715449-07:00 0HN4F3NPTJUTL:00000002 [INF] ResponseBody: "{\"reminderId\":464,\"timeStamp\":\"06/17/2024 22:38:26\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-17T15:47:27.0432916-07:00  [INF] For ReminderId 464 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (a0312eb2)
+2024-06-17T15:47:27.2256511-07:00  [INF] For ReminderId 464 in Loop 1 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (bea7ebae)
+2024-06-17T15:47:57.4282397-07:00  [INF] For ReminderId 464 in Loop 2 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (25d6253a)
+2024-06-17T15:47:57.6315814-07:00  [INF] For ReminderId 464 in Loop 2 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (ff024947)
+2024-06-17T15:48:27.8138456-07:00  [INF] For ReminderId 464 in Loop 3 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (0128a0bd)
+2024-06-17T15:48:27.9829868-07:00  [INF] For ReminderId 464 in Loop 3 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (da2ed1ad)
+2024-06-17T15:48:58.1913607-07:00  [INF] For ReminderId 464 in Loop 4 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (cfe3d5ad)
+2024-06-17T15:48:58.3940052-07:00  [INF] For ReminderId 464 in Loop 4 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (afccff58)
+2024-06-17T15:49:28.6287186-07:00  [INF] For ReminderId 464 in Loop 5 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (e25fbf8f)
+2024-06-17T15:49:28.8083865-07:00  [INF] For ReminderId 464 in Loop 5 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (dd9b0573)
+2024-06-17T15:49:59.0063898-07:00  [INF] For ReminderId 464 in Loop 6 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (d71e6521)
+2024-06-17T15:49:59.1868494-07:00  [INF] For ReminderId 464 in Loop 6 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (f5722134)
+2024-06-17T15:50:29.4094154-07:00  [INF] For ReminderId 464 in Loop 7 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (48ef1094)
+2024-06-17T15:50:29.6128798-07:00  [INF] For ReminderId 464 in Loop 7 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (4db049b9)
+2024-06-17T15:50:59.8367505-07:00  [INF] For ReminderId 464 in Loop 8 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (2294666f)
+2024-06-17T15:51:00.0395845-07:00  [INF] For ReminderId 464 in Loop 8 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (9282039f)
+2024-06-17T15:51:30.2523059-07:00  [INF] For ReminderId 464 in Loop 9 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (dd6bd7be)
+2024-06-17T15:51:30.4372062-07:00  [INF] For ReminderId 464 in Loop 9 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (bd7127a3)
+2024-06-17T15:52:00.6158324-07:00  [INF] For ReminderId 464 in Loop 10 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST 1-Bar (6b467241)
+2024-06-17T15:52:00.8138236-07:00  [INF] For ReminderId 464 in Loop 10 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message TEST 1-Bar (b7aa12f0)

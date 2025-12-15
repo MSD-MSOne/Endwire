@@ -1,0 +1,37 @@
+2024-07-02T16:01:27.0003163-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-02T16:01:27.0091801-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-02T16:01:27.0196980-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-02T16:01:27.0252141-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-02T16:01:27.0286047-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-02T16:04:04.5281507-07:00 0HN4QTBJH7ODI:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 109
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-02T16:04:05.0618299-07:00 0HN4QTBJH7ODI:00000002 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+} " (6d42d084)
+2024-07-02T16:06:43.6015502-07:00 0HN4QTBJH7ODI:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"userid":"168","channelid":"6E5X6GFCV694QKMOPHJM","calltoken":"006c5ada4e280e249f185432cc3498ad906IAADCAFVKNu/G9aUP6w9eqTrtFbCqHefh2ITx4VIyEsSYGi4IYYICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Call Notification","body":"Incoming Call from Guy Nice","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (fc86a3c4)
+2024-07-02T16:07:06.6443132-07:00 0HN4QTBJH7ODI:00000002 [INF] {"token":"d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd","condition":null,"data":{"userid":"168","channelid":"6E5X6GFCV694QKMOPHJM","calltoken":"006c5ada4e280e249f185432cc3498ad906IAADCAFVKNu/G9aUP6w9eqTrtFbCqHefh2ITx4VIyEsSYGi4IYYICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Call Notification","body":"Incoming Call from Guy Nice","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (07e4546b)
+2024-07-02T16:08:20.3619928-07:00 0HN4QTBJH7ODI:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 190 (999214c4)
+2024-07-02T16:08:20.3764024-07:00 0HN4QTBJH7ODI:00000002 [INF] ResponseBody: "{\"channelId\":\"6E5X6GFCV694QKMOPHJM\",\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAADCAFVKNu/G9aUP6w9eqTrtFbCqHefh2ITx4VIyEsSYGi4IYYICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)

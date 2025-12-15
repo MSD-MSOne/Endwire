@@ -1,0 +1,1275 @@
+2025-09-28T10:05:12.1713440-04:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-09-28T10:05:12.1757730-04:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-09-28T10:05:12.1788320-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-28T10:05:12.1803890-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-28T10:05:12.1805160-04:00  [INF] Content root path: "/Users/mrian/Library/Mobile Documents/com~apple~CloudDocs/Documents/Endwire/endwire/Endwire.API" (cc26f24e)
+2025-09-28T10:41:56.5642530-04:00  [INF] Application is shutting down... (90f52c38)
+2025-09-28T10:41:56.5843690-04:00  [INF] TimedTaskService is stopping. (3456c052)
+2025-09-28T10:51:29.1976660-04:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-09-28T10:51:29.2013130-04:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-09-28T10:51:29.2034840-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-28T10:51:29.2046650-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-28T10:51:29.2047140-04:00  [INF] Content root path: "/Users/mrian/Library/Mobile Documents/com~apple~CloudDocs/Documents/Endwire/endwire/Endwire.API" (cc26f24e)
+2025-09-28T10:52:38.0629070-04:00 0HNFUJQ0U28T2:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T10:52:38.4336400-04:00 0HNFUJQ0U28T2:00000005 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T10:52:40.7683290-04:00 0HNFUJQ0U28T2:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 263 (8b8e65b7)
+2025-09-28T10:52:40.7732020-04:00 0HNFUJQ0U28T2:00000005 [INF] ResponseBody: "{\"authToken\":\"BD730C20-E7C8-4A90-8D78-C500325495FD\",\"roles\":{\"name\":\"Lesser\",\"authorities\":{\"broadcast\":false,\"nudge\":true,\"groupCall\":false,\"voiceCall\":true,\"reminders\":true}},\"locationCount\":1,\"locations\":[{\"id\":50,\"name\":\"Mothership\"}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T10:52:40.7915540-04:00 0HNFUJQ0U28T2:00000005 [INF] Duration: 2722.1007ms (fbe12062)
+2025-09-28T10:55:48.6664220-04:00 0HNFUJQ0U28T3:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 103
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T10:55:48.6862280-04:00 0HNFUJQ0U28T3:00000001 [INF] RequestBody: "{
+  \"authToken\": \"BD730C20-E7C8-4A90-8D78-C500325495FD\",
+  \"reminderId\": \"127\",
+  \"status\": \"Cleared\"
+}""" (7ce70a12)
+2025-09-28T10:55:48.8652280-04:00 0HNFUJQ0U28T3:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (8b8e65b7)
+2025-09-28T10:55:48.8657990-04:00 0HNFUJQ0U28T3:00000001 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T10:55:48.8660150-04:00 0HNFUJQ0U28T3:00000001 [INF] Duration: 199.8733ms (fbe12062)
+2025-09-28T10:57:32.9220570-04:00 0HNFUJQ0U28T3:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T10:57:33.2440690-04:00 0HNFUJQ0U28T3:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T10:57:33.2443730-04:00 0HNFUJQ0U28T3:00000003 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T10:57:33.2444560-04:00 0HNFUJQ0U28T3:00000003 [INF] Duration: 322.6933ms (fbe12062)
+2025-09-28T10:57:57.4326780-04:00 0HNFUJQ0U28T3:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T10:57:57.4966590-04:00 0HNFUJQ0U28T3:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T10:57:57.4969880-04:00 0HNFUJQ0U28T3:00000005 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T10:57:57.4970320-04:00 0HNFUJQ0U28T3:00000005 [INF] Duration: 64.4779ms (fbe12062)
+2025-09-28T10:58:36.8344640-04:00 0HNFUJQ0U28T3:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T10:58:36.8718100-04:00 0HNFUJQ0U28T3:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T10:58:36.8720420-04:00 0HNFUJQ0U28T3:00000007 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T10:58:36.8721160-04:00 0HNFUJQ0U28T3:00000007 [INF] Duration: 37.7546ms (fbe12062)
+2025-09-28T10:58:43.3790510-04:00 0HNFUJQ0U28T3:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T10:58:43.4212460-04:00 0HNFUJQ0U28T3:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T10:58:43.4218600-04:00 0HNFUJQ0U28T3:00000009 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T10:58:43.4223770-04:00 0HNFUJQ0U28T3:00000009 [INF] Duration: 43.3013ms (fbe12062)
+2025-09-28T10:58:54.3291700-04:00  [INF] Application is shutting down... (90f52c38)
+2025-09-28T10:58:54.3482090-04:00  [INF] TimedTaskService is stopping. (3456c052)
+2025-09-28T10:59:15.7654570-04:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-09-28T10:59:15.7755480-04:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-09-28T10:59:15.7822180-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-09-28T10:59:15.7878560-04:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-09-28T10:59:15.7914140-04:00  [INF] Content root path: "/Users/mrian/Library/Mobile Documents/com~apple~CloudDocs/Documents/Endwire/endwire/Endwire.API" (cc26f24e)
+2025-09-28T11:01:57.5363130-04:00 0HNFUJVS28089:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:01:58.0293330-04:00 0HNFUJVS28089:00000001 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T11:02:01.2181320-04:00 0HNFUJVS28089:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 119 (8b8e65b7)
+2025-09-28T11:02:01.2644270-04:00 0HNFUJVS28089:00000001 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"An active session is already in progress\"}" (c7a8e6fd)
+2025-09-28T11:02:01.2889320-04:00 0HNFUJVS28089:00000001 [INF] Duration: 3740.7524ms (fbe12062)
+2025-09-28T11:02:59.9036610-04:00 0HNFUJVS28089:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/logout
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:03:00.0715750-04:00 0HNFUJVS28089:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 53 (8b8e65b7)
+2025-09-28T11:03:00.0751070-04:00 0HNFUJVS28089:00000003 [INF] ResponseBody: "{\"status\":\"\",\"apiResponse\":\"No Active Session Found\"}" (c7a8e6fd)
+2025-09-28T11:03:00.0782410-04:00 0HNFUJVS28089:00000003 [INF] Duration: 175.4469ms (fbe12062)
+2025-09-28T11:03:45.1916320-04:00 0HNFUJVS28089:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/logout
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:03:45.4052140-04:00 0HNFUJVS28089:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 52 (8b8e65b7)
+2025-09-28T11:03:45.4084600-04:00 0HNFUJVS28089:00000005 [INF] ResponseBody: "{\"status\":\"User Logged Out\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:03:45.4187700-04:00 0HNFUJVS28089:00000005 [INF] Duration: 229.482ms (fbe12062)
+2025-09-28T11:03:57.8176540-04:00 0HNFUJVS28089:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:03:57.8240430-04:00 0HNFUJVS28089:00000007 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T11:03:57.9973030-04:00 0HNFUJVS28089:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 263 (8b8e65b7)
+2025-09-28T11:03:58.0004780-04:00 0HNFUJVS28089:00000007 [INF] ResponseBody: "{\"authToken\":\"2FE90872-9130-4657-A2A2-5D8A32999BEC\",\"roles\":{\"name\":\"Lesser\",\"authorities\":{\"broadcast\":false,\"nudge\":true,\"groupCall\":false,\"voiceCall\":true,\"reminders\":true}},\"locationCount\":1,\"locations\":[{\"id\":50,\"name\":\"Mothership\"}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:03:58.0035150-04:00 0HNFUJVS28089:00000007 [INF] Duration: 186.3596ms (fbe12062)
+2025-09-28T11:04:15.1990460-04:00 0HNFUJVS2808A:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Host: localhost:7158
+User-Agent: com.apple.WebKit.Networking/20621.3.11.11.3 Network/4277.140.33 macOS/15.6.1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:04:15.2017630-04:00 0HNFUJVS2808A:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: */*
+Host: localhost:7158
+User-Agent: com.apple.WebKit.Networking/20621.3.11.11.3 Network/4277.140.33 macOS/15.6.1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:04:15.2045090-04:00 0HNFUJVS2808A:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Host: localhost:7158
+User-Agent: com.apple.WebKit.Networking/20621.3.11.11.3 Network/4277.140.33 macOS/15.6.1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:04:15.2078570-04:00 0HNFUJVS2808A:00000005 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:04:15.2332930-04:00 0HNFUJVS2808A:00000003 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:04:15.2547000-04:00 0HNFUJVS2808A:00000005 [INF] Duration: 37.0808ms (fbe12062)
+2025-09-28T11:04:15.2583060-04:00 0HNFUJVS2808A:00000001 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:04:15.2618070-04:00 0HNFUJVS2808A:00000003 [INF] Duration: 37.22ms (fbe12062)
+2025-09-28T11:04:15.2650640-04:00 0HNFUJVS2808A:00000001 [INF] Duration: 62.3022ms (fbe12062)
+2025-09-28T11:04:53.5413300-04:00 0HNFUJVS28089:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/nudges
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:04:53.7351020-04:00 0HNFUJVS28089:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 70 (8b8e65b7)
+2025-09-28T11:04:53.7463770-04:00 0HNFUJVS28089:00000009 [INF] ResponseBody: "{\"nudges\":null,\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2025-09-28T11:04:53.8576370-04:00 0HNFUJVS28089:00000009 [INF] Duration: 209.2314ms (fbe12062)
+2025-09-28T11:05:59.6919310-04:00 0HNFUJVS28089:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/nudges
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:05:59.7478520-04:00 0HNFUJVS28089:0000000B [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 100 (8b8e65b7)
+2025-09-28T11:05:59.7512920-04:00 0HNFUJVS28089:0000000B [INF] ResponseBody: "{\"nudges\":[{\"nudgeId\":16,\"nudge\":\"SECOND\"},{\"nudgeId\":54,\"nudge\":\"FOURTH\"}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:05:59.7821380-04:00 0HNFUJVS28089:0000000B [INF] Duration: 63.8225ms (fbe12062)
+2025-09-28T11:06:48.7844980-04:00 0HNFUJVS28089:0000000D [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/nudgeoutbox
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:06:48.9001900-04:00 0HNFUJVS28089:0000000D [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 40 (8b8e65b7)
+2025-09-28T11:06:48.9034520-04:00 0HNFUJVS28089:0000000D [INF] ResponseBody: "{\"reminders\":[],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:06:48.9063980-04:00 0HNFUJVS28089:0000000D [INF] Duration: 123.5483ms (fbe12062)
+2025-09-28T11:07:35.0969120-04:00 0HNFUJVS28089:0000000F [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 103
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:07:35.1087640-04:00 0HNFUJVS28089:0000000F [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Cleared\"
+}""" (7ce70a12)
+2025-09-28T11:08:55.5482070-04:00 0HNFUJVS28089:0000000F [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (8b8e65b7)
+2025-09-28T11:08:55.5518870-04:00 0HNFUJVS28089:0000000F [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:08:55.5551400-04:00 0HNFUJVS28089:0000000F [INF] Duration: 80456.0676ms (fbe12062)
+2025-09-28T11:09:00.4392770-04:00 0HNFUJVS2808B:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 103
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:09:00.4433660-04:00 0HNFUJVS2808B:00000001 [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Cleared\"
+}""" (7ce70a12)
+2025-09-28T11:09:04.0602850-04:00 0HNFUJVS2808B:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (8b8e65b7)
+2025-09-28T11:09:04.0634890-04:00 0HNFUJVS2808B:00000001 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:09:04.0668140-04:00 0HNFUJVS2808B:00000001 [INF] Duration: 3627.7491ms (fbe12062)
+2025-09-28T11:09:20.7722020-04:00 0HNFUJVS2808B:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 103
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:09:20.7851720-04:00 0HNFUJVS2808B:00000003 [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Cleared\"
+}""" (7ce70a12)
+2025-09-28T11:12:05.4084740-04:00 0HNFUJVS2808B:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (8b8e65b7)
+2025-09-28T11:12:05.4123520-04:00 0HNFUJVS2808B:00000003 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T11:12:05.4178980-04:00 0HNFUJVS2808B:00000003 [INF] Duration: 164644.4279ms (fbe12062)
+2025-09-28T11:12:21.7629960-04:00 0HNFUJVS2808C:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 102
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:12:21.7689340-04:00 0HNFUJVS2808C:00000001 [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Remove\"
+}""" (7ce70a12)
+2025-09-28T11:13:07.2219150-04:00 0HNFUJVS2808C:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 84 (8b8e65b7)
+2025-09-28T11:13:07.2258500-04:00 0HNFUJVS2808C:00000001 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Invalid Nudge Status\"}" (c7a8e6fd)
+2025-09-28T11:13:07.2298280-04:00 0HNFUJVS2808C:00000001 [INF] Duration: 45465.5569ms (fbe12062)
+2025-09-28T11:13:16.3486400-04:00 0HNFUJVS2808D:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 102
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:13:16.3535300-04:00 0HNFUJVS2808D:00000001 [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Remove\"
+}""" (7ce70a12)
+2025-09-28T11:13:22.8828990-04:00 0HNFUJVS2808D:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 84 (8b8e65b7)
+2025-09-28T11:13:22.8872390-04:00 0HNFUJVS2808D:00000001 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Invalid Nudge Status\"}" (c7a8e6fd)
+2025-09-28T11:13:22.8914840-04:00 0HNFUJVS2808D:00000001 [INF] Duration: 6546.0191ms (fbe12062)
+2025-09-28T11:13:34.3561120-04:00 0HNFUJVS2808D:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 102
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:13:34.3613660-04:00 0HNFUJVS2808D:00000003 [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Remove\"
+}""" (7ce70a12)
+2025-09-28T11:15:51.1464490-04:00 0HNFUJVS2808D:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 84 (8b8e65b7)
+2025-09-28T11:15:51.1511620-04:00 0HNFUJVS2808D:00000003 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Invalid Nudge Status\"}" (c7a8e6fd)
+2025-09-28T11:15:51.1567010-04:00 0HNFUJVS2808D:00000003 [INF] Duration: 136798.3714ms (fbe12062)
+2025-09-28T11:17:10.2949530-04:00 0HNFUJVS2808F:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-09-28T11:17:10.2986370-04:00 0HNFUJVS2808F:00000001 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:17:10.3023810-04:00 0HNFUJVS2808F:00000001 [INF] Duration: 7.2297ms (fbe12062)
+2025-09-28T11:17:10.3179730-04:00 0HNFUJVS2808F:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-09-28T11:17:10.3235010-04:00 0HNFUJVS2808F:00000003 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:17:10.3285510-04:00 0HNFUJVS2808F:00000003 [INF] Duration: 11.8874ms (fbe12062)
+2025-09-28T11:17:10.5096440-04:00 0HNFUJVS2808F:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-09-28T11:17:10.5148670-04:00 0HNFUJVS2808F:00000007 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:17:10.5200230-04:00 0HNFUJVS2808F:00000007 [INF] Duration: 10.1393ms (fbe12062)
+2025-09-28T11:17:10.5275030-04:00 0HNFUJVS2808F:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-09-28T11:17:10.5331640-04:00 0HNFUJVS2808F:00000009 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T11:17:10.5386100-04:00 0HNFUJVS2808F:00000009 [INF] Duration: 11.4456ms (fbe12062)
+2025-09-28T11:47:20.2642360-04:00 0HNFUJVS2808G:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 102
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T11:47:20.2715350-04:00 0HNFUJVS2808G:00000001 [INF] RequestBody: "{
+  \"authToken\": \"2FE90872-9130-4657-A2A2-5D8A32999BEC\",
+  \"reminderId\": \"127\",
+  \"status\": \"Remove\"
+}""" (7ce70a12)
+2025-09-28T11:47:32.4557010-04:00 0HNFUJVS2808G:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 84 (8b8e65b7)
+2025-09-28T11:47:32.4614670-04:00 0HNFUJVS2808G:00000001 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Invalid Nudge Status\"}" (c7a8e6fd)
+2025-09-28T11:47:32.4666890-04:00 0HNFUJVS2808G:00000001 [INF] Duration: 12202.3389ms (fbe12062)
+2025-09-28T12:04:32.8825810-04:00 0HNFUJVS2808H:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:04:34.8784070-04:00 0HNFUJVS2808H:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (8b8e65b7)
+2025-09-28T12:04:34.8831170-04:00 0HNFUJVS2808H:00000001 [INF] ResponseBody: "{\"reminders\":[],\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2025-09-28T12:04:34.9216730-04:00 0HNFUJVS2808H:00000001 [INF] Duration: 2006.77ms (fbe12062)
+2025-09-28T12:04:58.2280540-04:00 0HNFUJVS2808H:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:05:00.1183440-04:00 0HNFUJVS2808H:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (8b8e65b7)
+2025-09-28T12:05:00.1228250-04:00 0HNFUJVS2808H:00000003 [INF] ResponseBody: "{\"reminders\":[],\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2025-09-28T12:05:00.1272260-04:00 0HNFUJVS2808H:00000003 [INF] Duration: 1900.8898ms (fbe12062)
+2025-09-28T12:05:17.0503020-04:00 0HNFUJVS2808H:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:05:17.0594420-04:00 0HNFUJVS2808H:00000005 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:05:17.1102210-04:00 0HNFUJVS2808H:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 119 (8b8e65b7)
+2025-09-28T12:05:17.1149450-04:00 0HNFUJVS2808H:00000005 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"An active session is already in progress\"}" (c7a8e6fd)
+2025-09-28T12:05:17.1191520-04:00 0HNFUJVS2808H:00000005 [INF] Duration: 68.9721ms (fbe12062)
+2025-09-28T12:05:25.3644360-04:00 0HNFUJVS2808H:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/logout
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:05:25.4182250-04:00 0HNFUJVS2808H:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 53 (8b8e65b7)
+2025-09-28T12:05:25.4308890-04:00 0HNFUJVS2808H:00000007 [INF] ResponseBody: "{\"status\":\"\",\"apiResponse\":\"No Active Session Found\"}" (c7a8e6fd)
+2025-09-28T12:05:25.5146530-04:00 0HNFUJVS2808H:00000007 [INF] Duration: 71.955ms (fbe12062)
+2025-09-28T12:05:31.1373670-04:00 0HNFUJVS2808H:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:05:31.1432950-04:00 0HNFUJVS2808H:00000009 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:05:31.1950720-04:00 0HNFUJVS2808H:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 119 (8b8e65b7)
+2025-09-28T12:05:31.1998400-04:00 0HNFUJVS2808H:00000009 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"An active session is already in progress\"}" (c7a8e6fd)
+2025-09-28T12:05:31.2039320-04:00 0HNFUJVS2808H:00000009 [INF] Duration: 67.9399ms (fbe12062)
+2025-09-28T12:05:44.7459630-04:00 0HNFUJVS2808H:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/logout
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:05:45.2049490-04:00 0HNFUJVS2808H:0000000B [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 53 (8b8e65b7)
+2025-09-28T12:05:45.2097130-04:00 0HNFUJVS2808H:0000000B [INF] ResponseBody: "{\"status\":\"\",\"apiResponse\":\"No Active Session Found\"}" (c7a8e6fd)
+2025-09-28T12:05:45.2138020-04:00 0HNFUJVS2808H:0000000B [INF] Duration: 469.5124ms (fbe12062)
+2025-09-28T12:06:12.9360640-04:00 0HNFUJVS2808H:0000000D [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/logout
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:06:12.9829100-04:00 0HNFUJVS2808H:0000000D [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 53 (8b8e65b7)
+2025-09-28T12:06:12.9878380-04:00 0HNFUJVS2808H:0000000D [INF] ResponseBody: "{\"status\":\"\",\"apiResponse\":\"No Active Session Found\"}" (c7a8e6fd)
+2025-09-28T12:06:13.0029860-04:00 0HNFUJVS2808H:0000000D [INF] Duration: 57.0913ms (fbe12062)
+2025-09-28T12:06:14.9127810-04:00 0HNFUJVS2808H:0000000F [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/logout
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:06:14.9562180-04:00 0HNFUJVS2808H:0000000F [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 53 (8b8e65b7)
+2025-09-28T12:06:14.9614110-04:00 0HNFUJVS2808H:0000000F [INF] ResponseBody: "{\"status\":\"\",\"apiResponse\":\"No Active Session Found\"}" (c7a8e6fd)
+2025-09-28T12:06:14.9660740-04:00 0HNFUJVS2808H:0000000F [INF] Duration: 54.2871ms (fbe12062)
+2025-09-28T12:06:19.4304130-04:00 0HNFUJVS2808H:00000011 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:06:19.4361000-04:00 0HNFUJVS2808H:00000011 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:06:19.4785610-04:00 0HNFUJVS2808H:00000011 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 119 (8b8e65b7)
+2025-09-28T12:06:19.4841980-04:00 0HNFUJVS2808H:00000011 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"An active session is already in progress\"}" (c7a8e6fd)
+2025-09-28T12:06:19.4894660-04:00 0HNFUJVS2808H:00000011 [INF] Duration: 58.0284ms (fbe12062)
+2025-09-28T12:09:39.5981430-04:00 0HNFUJVS2808H:00000013 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:09:39.6038720-04:00 0HNFUJVS2808H:00000013 [INF] RequestBody: "{
+    \"userName\":\"TodTwod\",
+    \"passCode\":\"2558\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:09:39.7228570-04:00 0HNFUJVS2808H:00000013 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (8b8e65b7)
+2025-09-28T12:09:39.7278240-04:00 0HNFUJVS2808H:00000013 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"Invalid Login\"}" (c7a8e6fd)
+2025-09-28T12:09:39.7329120-04:00 0HNFUJVS2808H:00000013 [INF] Duration: 134.4653ms (fbe12062)
+2025-09-28T12:10:13.8331260-04:00 0HNFUJVS2808H:00000015 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:10:13.8386710-04:00 0HNFUJVS2808H:00000015 [INF] RequestBody: "{
+    \"userName\":\"TodTwod\",
+    \"passCode\":\"2558\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:10:13.8930630-04:00 0HNFUJVS2808H:00000015 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (8b8e65b7)
+2025-09-28T12:10:13.9769230-04:00 0HNFUJVS2808H:00000015 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"Invalid Login\"}" (c7a8e6fd)
+2025-09-28T12:10:14.0006800-04:00 0HNFUJVS2808H:00000015 [INF] Duration: 175.1442ms (fbe12062)
+2025-09-28T12:10:36.3020030-04:00 0HNFUJVS2808H:00000017 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:10:36.3104930-04:00 0HNFUJVS2808H:00000017 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:10:36.3682340-04:00 0HNFUJVS2808H:00000017 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 119 (8b8e65b7)
+2025-09-28T12:10:36.3747010-04:00 0HNFUJVS2808H:00000017 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"An active session is already in progress\"}" (c7a8e6fd)
+2025-09-28T12:10:36.4771910-04:00 0HNFUJVS2808H:00000017 [INF] Duration: 77.572ms (fbe12062)
+2025-09-28T12:11:28.3138880-04:00 0HNFUJVS2808H:00000019 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:11:28.3217650-04:00 0HNFUJVS2808H:00000019 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:12:27.3512990-04:00 0HNFUJVS2808H:00000019 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 119 (8b8e65b7)
+2025-09-28T12:12:27.3555050-04:00 0HNFUJVS2808H:00000019 [INF] ResponseBody: "{\"authToken\":\"\",\"roles\":null,\"locationCount\":0,\"locations\":[],\"apiResponse\":\"An active session is already in progress\"}" (c7a8e6fd)
+2025-09-28T12:12:27.3595620-04:00 0HNFUJVS2808H:00000019 [INF] Duration: 59045.2238ms (fbe12062)
+2025-09-28T12:12:30.9046990-04:00 0HNFUJVS2808I:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/login
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 81
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:12:30.9303440-04:00 0HNFUJVS2808I:00000001 [INF] RequestBody: "{
+    \"userName\":\"BraOnem\",
+    \"passCode\":\"7656\",
+    \"regToken\":\"TestSession\"
+}""" (7ce70a12)
+2025-09-28T12:21:11.9774890-04:00 0HNFUJVS2808I:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 263 (8b8e65b7)
+2025-09-28T12:21:11.9823250-04:00 0HNFUJVS2808I:00000001 [INF] ResponseBody: "{\"authToken\":\"35DACC9B-A699-400E-B0F3-9BC7E2137FD4\",\"roles\":{\"name\":\"Lesser\",\"authorities\":{\"broadcast\":false,\"nudge\":true,\"groupCall\":false,\"voiceCall\":true,\"reminders\":true}},\"locationCount\":1,\"locations\":[{\"id\":50,\"name\":\"Mothership\"}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T12:21:11.9869030-04:00 0HNFUJVS2808I:00000001 [INF] Duration: 521095.6638ms (fbe12062)
+2025-09-28T12:21:12.1160510-04:00 0HNFUJVS2808N:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-09-28T12:21:12.1201640-04:00 0HNFUJVS2808N:00000001 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T12:21:12.1240020-04:00 0HNFUJVS2808N:00000001 [INF] Duration: 31.57ms (fbe12062)
+2025-09-28T12:21:12.1292130-04:00 0HNFUJVS2808N:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-09-28T12:21:12.1332440-04:00 0HNFUJVS2808N:00000003 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-09-28T12:21:12.1372330-04:00 0HNFUJVS2808N:00000003 [INF] Duration: 7.9986ms (fbe12062)
+2025-09-28T12:23:30.6878650-04:00 0HNFUJVS2808L:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:23:33.7303270-04:00 0HNFUJVS2808L:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T12:23:33.7351290-04:00 0HNFUJVS2808L:00000005 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T12:23:33.7400010-04:00 0HNFUJVS2808L:00000005 [INF] Duration: 3058.5194ms (fbe12062)
+2025-09-28T12:23:58.9883910-04:00 0HNFUJVS2808L:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:24:22.0255140-04:00 0HNFUJVS2808O:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:28:15.5215190-04:00 0HNFUJVS2808O:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T12:28:15.5546380-04:00 0HNFUJVS2808O:00000001 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T12:28:15.5805450-04:00 0HNFUJVS2808O:00000001 [INF] Duration: 233526.9482ms (fbe12062)
+2025-09-28T12:28:15.6083390-04:00 0HNFUJVS2808Q:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:28:18.0789810-04:00 0HNFUJVS2808Q:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T12:28:18.0842350-04:00 0HNFUJVS2808Q:00000001 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T12:28:18.0886460-04:00 0HNFUJVS2808Q:00000001 [INF] Duration: 2529.2781ms (fbe12062)
+2025-09-28T12:28:18.7049800-04:00 0HNFUJVS2808L:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2025-09-28T12:28:18.7107360-04:00 0HNFUJVS2808L:00000007 [INF] ResponseBody: "No Data Available" (c7a8e6fd)
+2025-09-28T12:28:18.7156340-04:00 0HNFUJVS2808L:00000007 [INF] Duration: 259720.9946ms (fbe12062)
+2025-09-28T12:28:28.6161320-04:00 0HNFUJVS2808Q:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:28:33.3481130-04:00 0HNFUJVS2808Q:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 806 (8b8e65b7)
+2025-09-28T12:28:33.3534750-04:00 0HNFUJVS2808Q:00000003 [INF] ResponseBody: "{\"reminders\":[{\"reminderId\":1034,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":222,\"resource\":\"Blah\",\"nudgeId\":17,\"text\":\"THIRD\",\"timeStamp\":\"07/30/2024 03:23:16\",\"status\":\"Confirmed\",\"multipleRecipients\":true},{\"reminderId\":1036,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":222,\"resource\":\"Blah\",\"nudgeId\":17,\"text\":\"THIRD\",\"timeStamp\":\"07/30/2024 23:36:16\",\"status\":\"Sent\",\"multipleRecipients\":true},{\"reminderId\":1038,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":222,\"resource\":\"Blah\",\"nudgeId\":17,\"text\":\"THIRD\",\"timeStamp\":\"07/31/2024 20:46:28\",\"status\":\"Sent\",\"multipleRecipients\":true}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T12:28:33.3583720-04:00 0HNFUJVS2808Q:00000003 [INF] Duration: 4742.4166ms (fbe12062)
+2025-09-28T12:56:18.1686090-04:00 0HNFUJVS2808S:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: text/plain
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:56:22.0545770-04:00 0HNFUJVS2808S:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 806 (8b8e65b7)
+2025-09-28T12:56:22.0637870-04:00 0HNFUJVS2808S:00000001 [INF] ResponseBody: "{\"reminders\":[{\"reminderId\":1034,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":222,\"resource\":\"Blah\",\"nudgeId\":17,\"text\":\"THIRD\",\"timeStamp\":\"07/30/2024 03:23:16\",\"status\":\"Confirmed\",\"multipleRecipients\":true},{\"reminderId\":1036,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":222,\"resource\":\"Blah\",\"nudgeId\":17,\"text\":\"THIRD\",\"timeStamp\":\"07/30/2024 23:36:16\",\"status\":\"Sent\",\"multipleRecipients\":true},{\"reminderId\":1038,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":222,\"resource\":\"Blah\",\"nudgeId\":17,\"text\":\"THIRD\",\"timeStamp\":\"07/31/2024 20:46:28\",\"status\":\"Sent\",\"multipleRecipients\":true}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T12:56:22.0889010-04:00 0HNFUJVS2808S:00000001 [INF] Duration: 3901.0729ms (fbe12062)
+2025-09-28T12:58:20.9551750-04:00 0HNFUJVS2808S:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/nudges
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:58:21.0376520-04:00 0HNFUJVS2808S:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 100 (8b8e65b7)
+2025-09-28T12:58:21.0427390-04:00 0HNFUJVS2808S:00000003 [INF] ResponseBody: "{\"nudges\":[{\"nudgeId\":16,\"nudge\":\"SECOND\"},{\"nudgeId\":54,\"nudge\":\"FOURTH\"}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-09-28T12:58:21.0473270-04:00 0HNFUJVS2808S:00000003 [INF] Duration: 95.4685ms (fbe12062)
+2025-09-28T12:58:46.6217970-04:00 0HNFUJVS2808S:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 181
+sec-fetch-site: [Redacted]
+authtoken: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-09-28T12:58:46.6373020-04:00 0HNFUJVS2808S:00000005 [INF] RequestBody: "{
+  \"authToken\": \"string\",
+  \"reminderType\": \"Nudge\",
+  \"nudgeId\": 54,
+  \"resourceId\": 0,
+  \"recipients\": [
+    {
+      \"userId\": 91
+    }
+  ],
+  \"text\": \"string\",
+  \"outboxId\": 0
+}""" (7ce70a12)
+2025-09-28T12:59:36.4060490-04:00 0HNFUJVS2808S:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 125 (8b8e65b7)
+2025-09-28T12:59:36.4108170-04:00 0HNFUJVS2808S:00000005 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":\"09/28/2025 16:59:25\",\"status\":\"Not Sent\",\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2025-09-28T12:59:36.4153870-04:00 0HNFUJVS2808S:00000005 [INF] Duration: 49793.3219ms (fbe12062)

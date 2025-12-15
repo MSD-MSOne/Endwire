@@ -1,0 +1,31 @@
+2024-07-09T15:49:22.6366216-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-09T15:49:23.1201053-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-09T15:49:23.3065511-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-09T15:49:23.5172135-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-09T15:49:23.7043351-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-09T15:54:46.4459680-07:00 0HN50D5G3S9D9:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.39.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 205
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-09T15:54:47.9147146-07:00 0HN50D5G3S9D9:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 145,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)

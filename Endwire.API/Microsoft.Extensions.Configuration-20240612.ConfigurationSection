@@ -1,0 +1,24 @@
+2024-06-12T15:53:34.9895205-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-12T15:53:35.0043720-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-12T15:53:35.0179661-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-12T15:53:35.0235189-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-12T15:53:35.0277965-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-12T15:55:02.7312696-07:00 0HN4B69UNMR27:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 57
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-12T15:55:03.2827933-07:00 0HN4B69UNMR27:00000002 [INF] RequestBody: "{
+    \"reminderid\": \"541\",
+    \"status\": \"Confirmed\"
+}" (6d42d084)

@@ -1,0 +1,26 @@
+{
+  "reminders": [
+    {
+      "reminderid": 836392080,
+      "recipients": [
+        {
+          "userid": 123,
+          "name": "Jackie"
+        }
+      ],
+      "resourceid": 367,
+      "resource": "Exam Room 1",
+      "nudgeid": 86,
+      "text": "ready for exam",
+      "timestamp": "11:07AM",
+      "status": "confirmed",
+      "confirmedby": [
+        {
+          "userid": 123,
+          "firstname": "Jackie",
+          "picture": "https://images.endwire.com/client/image.jpg"
+        }
+      ]
+    }
+  ]
+}

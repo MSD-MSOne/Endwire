@@ -1,0 +1,6 @@
+2023-02-19T06:44:27.0018068-08:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2023-02-19T06:44:27.0098296-08:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2023-02-19T06:44:27.0298677-08:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-02-19T06:44:27.0386357-08:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-02-19T06:44:27.0401348-08:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2023-02-19T06:44:58.6138615-08:00 0HMOIGV6GVIR5:00000002 [INF] Executing "GetUserOnlineStatusAsync" 1 (fb64ff65)

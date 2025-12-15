@@ -1,0 +1,73 @@
+2024-06-26T20:05:22.5332877-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-26T20:05:22.5483606-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-26T20:05:22.5620488-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-26T20:05:22.5689297-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-26T20:05:22.5726236-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-26T20:07:44.7445224-07:00 0HN4MANU3DE71:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 108
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-26T20:07:45.2283539-07:00 0HN4MANU3DE71:00000002 [INF] RequestBody: "{
+   \"users\": [{
+        \"userid\": 93
+    },
+    {
+        \"userid\": 91
+    }
+    ]
+
+}" (6d42d084)
+2024-06-26T20:14:25.7249329-07:00 0HN4MANU3DE71:00000002 [INF] {"token":"d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd","condition":null,"data":{"userid":"168","channelid":"CXL0GDYTZQWR5PXDICZZ","calltoken":"006af87b56cb96a4d539f0171d842e3e7e2IADZ6K5aDQZRQYs1epP+Qk58UmFW6+S8uzS9CbAME3FDFF/K6xoICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Call Notification","body":"Incoming Call from Guy Nice","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (ec0a1064)
+2024-06-26T20:14:27.6158690-07:00 0HN4MANU3DE71:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"userid":"168","channelid":"CXL0GDYTZQWR5PXDICZZ","calltoken":"006af87b56cb96a4d539f0171d842e3e7e2IADZ6K5aDQZRQYs1epP+Qk58UmFW6+S8uzS9CbAME3FDFF/K6xoICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Call Notification","body":"Incoming Call from Guy Nice","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (689c03a5)
+2024-06-26T20:14:27.7868166-07:00 0HN4MANU3DE71:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 190 (999214c4)
+2024-06-26T20:14:27.8099506-07:00 0HN4MANU3DE71:00000002 [INF] ResponseBody: "{\"channelId\":\"CXL0GDYTZQWR5PXDICZZ\",\"callToken\":\"006af87b56cb96a4d539f0171d842e3e7e2IADZ6K5aDQZRQYs1epP+Qk58UmFW6+S8uzS9CbAME3FDFF/K6xoICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-26T20:16:03.8955762-07:00 0HN4MANU3DE71:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 206
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-26T20:16:03.9063868-07:00 0HN4MANU3DE71:00000003 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 91
+     },
+     {
+           \"userId\": 93
+     }],
+     \"text\": \"TEST Group Call message json\"
+}" (6d42d084)
+2024-06-26T20:16:38.7222048-07:00  [INF] start ...  (32234bea)
+2024-06-26T20:16:50.1811109-07:00 0HN4MANU3DE71:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-06-26T20:16:50.1883673-07:00 0HN4MANU3DE71:00000003 [INF] ResponseBody: "{\"reminderId\":540,\"timeStamp\":\"06/27/2024 03:16:13\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-26T20:19:10.2843627-07:00  [INF] {"token":"d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd","condition":null,"data":{"userId":"91","reminderId":"540","timeStamp":"6/26/2024 8:16:54 PM","status":null},"notification":{"title":"Send Reminder","body":"TEST Group Call message json-Bar","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (7187a159)
+2024-06-26T20:19:10.4705146-07:00  [INF] For ReminderId 540 in Loop 1 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call message json-Bar (24d57e61)
+2024-06-26T20:19:13.0180660-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"userId":"93","reminderId":"540","timeStamp":"6/26/2024 8:19:10 PM","status":null},"notification":{"title":"Send Reminder","body":"TEST Group Call message json-Bar","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (9187a31d)
+2024-06-26T20:19:13.1198058-07:00  [INF] For ReminderId 540 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call message json-Bar (6f238862)

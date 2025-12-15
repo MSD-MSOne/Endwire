@@ -1,0 +1,32 @@
+2024-06-06T08:53:24.6767411-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-06T08:53:24.6837653-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-06T08:53:24.6900859-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-06T08:53:24.6938649-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-06T08:53:24.6959494-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-06T08:54:47.5035782-07:00 0HN46836A68GS:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 120
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-06T08:54:48.1890255-07:00 0HN46836A68GS:00000002 [INF] RequestBody: "{
+   \"authtoken\": \"0C512A15-FC17-4762-A79F-7B178EA9F032\",
+   \"users\": [{
+        \"userid\": 93
+    }]
+
+}" (6d42d084)
+2024-06-06T08:55:39.3192202-07:00 0HN46836A68GS:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 190 (999214c4)
+2024-06-06T08:55:39.3268369-07:00 0HN46836A68GS:00000002 [INF] ResponseBody: "{\"channelId\":\"6MNETJ4AA208RUIEZI5M\",\"callToken\":\"006af87b56cb96a4d539f0171d842e3e7e2IADIgExaHFVHmTKq6/wi2/R9D0EqeXXeHc1JAiuNaaKdcW2ajesICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)

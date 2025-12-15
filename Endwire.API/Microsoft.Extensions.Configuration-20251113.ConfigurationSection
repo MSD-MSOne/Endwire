@@ -1,0 +1,125 @@
+2025-11-13T18:00:13.4422840-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-11-13T18:00:13.4546720-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-11-13T18:00:13.4631380-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-11-13T18:00:13.4879970-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-11-13T18:00:13.4909470-05:00  [INF] Content root path: "/Users/mrian/Library/Mobile Documents/com~apple~CloudDocs/Documents/Endwire/endwire/Endwire.API" (cc26f24e)
+2025-11-13T18:02:57.9204880-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-11-13T18:02:57.9277760-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-11-13T18:02:57.9332230-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-11-13T18:02:57.9377830-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-11-13T18:02:57.9406050-05:00  [INF] Content root path: "/Users/mrian/Library/Mobile Documents/com~apple~CloudDocs/Documents/Endwire/endwire/Endwire.API" (cc26f24e)
+2025-11-13T18:03:12.7928610-05:00 0HNH313924J9P:00000001 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Connection: keep-alive
+Host: localhost:5158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Priority: [Redacted] (8b8e65b7)
+2025-11-13T18:03:12.8017540-05:00 0HNH313924J9P:00000001 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:12.8442580-05:00 0HNH313924J9P:00000001 [INF] Duration: 26.5177ms (fbe12062)
+2025-11-13T18:03:13.0524600-05:00 0HNH313924J9Q:00000001 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Connection: keep-alive
+Host: localhost:5158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-11-13T18:03:13.0608560-05:00 0HNH313924J9Q:00000001 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:13.0655900-05:00 0HNH313924J9Q:00000001 [INF] Duration: 16.9792ms (fbe12062)
+2025-11-13T18:03:13.0728750-05:00 0HNH313924J9P:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /favicon.ico
+Accept: */*
+Connection: keep-alive
+Host: localhost:5158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+Sec-Fetch-Dest: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Priority: [Redacted] (8b8e65b7)
+2025-11-13T18:03:13.0775190-05:00 0HNH313924J9P:00000002 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:13.0815320-05:00 0HNH313924J9Q:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Connection: keep-alive
+Host: localhost:5158
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Safari
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9 (8b8e65b7)
+2025-11-13T18:03:13.1079310-05:00 0HNH313924J9P:00000002 [INF] Duration: 10.0576ms (fbe12062)
+2025-11-13T18:03:13.1336280-05:00 0HNH313924J9Q:00000002 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:13.1367280-05:00 0HNH313924J9Q:00000002 [INF] Duration: 60.6039ms (fbe12062)
+2025-11-13T18:03:53.1744810-05:00 0HNH313924J9S:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Host: localhost:7158
+User-Agent: com.apple.WebKit.Networking/20621.3.11.11.3 Network/4277.140.33 macOS/15.6.1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+priority: [Redacted] (8b8e65b7)
+2025-11-13T18:03:53.1965350-05:00 0HNH313924J9S:00000001 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:53.2007630-05:00 0HNH313924J9S:00000001 [INF] Duration: 30.0496ms (fbe12062)
+2025-11-13T18:03:53.2267330-05:00 0HNH313924J9S:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Host: localhost:7158
+User-Agent: com.apple.WebKit.Networking/20621.3.11.11.3 Network/4277.140.33 macOS/15.6.1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+priority: [Redacted] (8b8e65b7)
+2025-11-13T18:03:53.2312240-05:00 0HNH313924J9S:00000003 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:53.2626260-05:00 0HNH313924J9S:00000003 [INF] Duration: 34.5895ms (fbe12062)
+2025-11-13T18:03:53.2886170-05:00 0HNH313924J9S:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+Accept: */*
+Host: localhost:7158
+User-Agent: com.apple.WebKit.Networking/20621.3.11.11.3 Network/4277.140.33 macOS/15.6.1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+priority: [Redacted] (8b8e65b7)
+2025-11-13T18:03:53.2919570-05:00 0HNH313924J9S:00000005 [INF] Response:
+StatusCode: 404 (8b8e65b7)
+2025-11-13T18:03:53.2956750-05:00 0HNH313924J9S:00000005 [INF] Duration: 91.231ms (fbe12062)

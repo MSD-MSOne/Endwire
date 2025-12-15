@@ -1,0 +1,34 @@
+2024-07-16T15:38:32.9193743-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-16T15:38:32.9292472-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-16T15:38:32.9347278-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T15:38:32.9381556-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-16T15:38:32.9414884-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-16T15:38:41.7770865-07:00 0HN55T02VI2BJ:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 56
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-16T15:38:42.4288608-07:00 0HN55T02VI2BJ:00000002 [INF] RequestBody: "{
+    \"reminderid\": \"428\",
+    \"status\": \"Canceled\"
+}" (6d42d084)
+2024-07-16T16:02:55.5613897-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-16T16:02:55.5761894-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-16T16:02:55.5875033-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T16:02:55.5932095-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-16T16:02:55.5982557-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-16T16:03:52.7224919-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-16T16:03:52.7788819-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-16T16:03:52.8140017-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T16:03:52.8583070-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-16T16:03:52.8761974-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)

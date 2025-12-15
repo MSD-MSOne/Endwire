@@ -1,0 +1,40 @@
+{
+  "StoredProcedures": {
+    "SendReminder": {
+      "Database": "endwire",
+      "Name": "[dbo].[sp_SendReminder_API_UPD]",
+      "Timeout": "60"
+    },
+    "GetAuthToken": "[dbo].[sp_AuthToken_API_GET]",
+    "EndSession": "[dbo].[sp_EndSession_API_UPD]",
+    "GetLocationList": "[dbo].[sp_LocationList_API_GET]",
+    "GetNudgeList": "[dbo].[sp_NudgeList_API_GET]",
+    "GetResourceByNudgeId": "[dbo].[sp_ResourceByNudgeID_API_GET]",
+    "GetRoleAuthorities": "[dbo].[sp_RoleAuthorities_API_GET]",
+    "GetInboxList": "[dbo].[sp_InboxList_API_GET]",
+    "GetUserOnlineStatus": "dbo.sp_UserOnlineStatus_API_GET ",
+    "GetUserProfile": "dbo.sp_UserProfile_API_GET ",
+    "GetUserRoles": "[dbo].[sp_UserRoles_API_GET]",
+    "GetUserLocations": "[dbo].[sp_UserLocation_API_GET]",
+    "GetOutboxList": "[dbo].[sp_OutboxList_API_GET]",
+    "GetConfirmBy": "[dbo].[sp_ConfirmedBy_API_GET]",
+    "GetReminderRecepients": "[dbo].[sp_ReminderRecepients_API_GET]",
+    "GetUserListByNudgeId": "[dbo].[sp_UserListByNudgeID_API_GET]",
+    "GetGroups": "[dbo].[sp_Groups_API_Get]",
+    "GetGroupUsersList": "[dbo].[sp_GroupUsersList_GET]",
+    "SetTimerTask": "[dbo].[sp_SetTimeTask_API_UPD]",
+    "GetTimerTaskList": "[dbo].[sp_TimerTaskLists_API_GET]",
+    "UpdateNudgeStatus": "[dbo].[sp_NudgeStatus_API_UPD]",
+    "GetStartCall": "[dbo].[sp_StartCall_GET]",
+    "GetStartBroadcast": "[dbo].[sp_StartBroadcast_GET]",
+    "GetEndBroadcast": "[dbo].[sp_EndBroadcast_UPD]",
+    "AcceptCall": "[dbo].[sp_AcceptCall_UPD]",
+    "EndCall": "[dbo].[sp_EndCall_UPD]",
+    "ExitCall": "[dbo].[sp_ExitCall_UPD]",
+    "NudgeStatusChange_FCM": "[dbo].[sp_NudgeStatusChange_FCM]",
+    "AddNewResource": "[dbo].[sp_NewResource_INS]",
+    "FcmSendReminder": "[dbo].[sp_SendReminder_FCM]",
+    "GetUserNudgeStatus": "[dbo].[sp_UserNudgeStatus_GET]",
+    "GetExitCall_FCM": "[dbo].[sp_ExitCall_FCM_GET]"
+  }
+}

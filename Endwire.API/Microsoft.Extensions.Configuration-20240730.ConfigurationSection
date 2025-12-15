@@ -1,0 +1,150 @@
+2024-07-30T16:35:02.1920945-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-30T16:35:02.2002174-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-30T16:35:02.2076802-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-30T16:35:02.2120909-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-30T16:35:02.2146963-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-30T16:36:13.9252854-07:00 0HN5GU0TSJ365:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 225
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-30T16:36:14.3850978-07:00 0HN5GU0TSJ365:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 222,
+     \"nudgeId\":17,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-30T16:36:18.9061819-07:00 0HN5GU0TSJ365:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-07-30T16:36:18.9165450-07:00 0HN5GU0TSJ365:00000002 [INF] ResponseBody: "{\"reminderId\":742,\"timeStamp\":\"07/30/2024 23:36:16\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-30T16:36:19.6533195-07:00  [INF] start ...  (32234bea)
+2024-07-30T16:36:42.6043811-07:00  [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:36:37 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (c77286c6)
+2024-07-30T16:36:49.4951575-07:00  [INF] For ReminderId 742 in Loop 1 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (c866508d)
+2024-07-30T16:37:30.3565606-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:37:29 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (b5d95e89)
+2024-07-30T16:37:32.0876430-07:00  [INF] For ReminderId 742 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (be8bddd1)
+2024-07-30T16:40:46.7268639-07:00  [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:40:44 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (a284ebc2)
+2024-07-30T16:40:49.1876599-07:00  [INF] For ReminderId 742 in Loop 2 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (d5401c04)
+2024-07-30T16:45:09.3574756-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:45:00 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (61787807)
+2024-07-30T16:45:11.8254331-07:00  [INF] For ReminderId 742 in Loop 2 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (555cb364)
+2024-07-30T16:46:28.7095468-07:00 0HN5GU0TSJ365:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 57
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-30T16:46:28.7201953-07:00 0HN5GU0TSJ365:00000003 [INF] RequestBody: "{
+    \"reminderid\": \"742\",
+    \"status\": \"Confirmed\"
+}" (6d42d084)
+2024-07-30T16:49:28.2666950-07:00 0HN5GU0TSJ365:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (999214c4)
+2024-07-30T16:49:28.2773731-07:00 0HN5GU0TSJ365:00000003 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-30T16:50:07.2296472-07:00  [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:49:47 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (45f3b1d7)
+2024-07-30T16:50:12.1439613-07:00  [INF] For ReminderId 742 in Loop 3 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (d7284fcb)
+2024-07-30T16:50:22.9889997-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:50:20 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (c920c715)
+2024-07-30T16:50:23.0914422-07:00  [INF] For ReminderId 742 in Loop 3 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (a6ae27f4)
+2024-07-30T16:51:10.9415102-07:00  [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:51:04 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (45eb1c1d)
+2024-07-30T16:51:11.0323445-07:00  [INF] For ReminderId 742 in Loop 4 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (4b11c782)
+2024-07-30T16:51:14.6963078-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":742}","receivedBy":"[{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":1037},{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":1036}]","timeStamp":"7/30/2024 4:51:12 PM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (13c6ab51)
+2024-07-30T16:51:14.7906594-07:00  [INF] For ReminderId 742 in Loop 4 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (ef448065)
+2024-07-30T16:52:01.5121785-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-30T16:52:01.5179712-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-30T16:52:01.5239988-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-30T16:52:01.5336923-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-30T16:52:01.5353525-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-30T16:52:14.8519316-07:00 0HN5GUADNEBK3:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 57
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-30T16:52:15.2004851-07:00 0HN5GUADNEBK3:00000002 [INF] RequestBody: "{
+    \"reminderid\": \"742\",
+    \"status\": \"Confirmed\"
+}" (6d42d084)
+2024-07-30T16:53:34.7745558-07:00 0HN5GUADNEBK3:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (999214c4)
+2024-07-30T16:53:34.7857193-07:00 0HN5GUADNEBK3:00000002 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-30T17:07:19.5838760-07:00 0HN5GUADNEBK3:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 57
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-30T17:07:19.5897582-07:00 0HN5GUADNEBK3:00000003 [INF] RequestBody: "{
+    \"reminderid\": \"742\",
+    \"status\": \"Confirmed\"
+}" (6d42d084)
+2024-07-30T17:18:40.8929970-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-30T17:18:40.9060607-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-30T17:18:40.9182462-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-30T17:18:40.9263894-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-30T17:18:40.9309118-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-30T17:18:59.9030603-07:00 0HN5GUPACS79E:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 57
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-30T17:19:00.4511911-07:00 0HN5GUPACS79E:00000002 [INF] RequestBody: "{
+    \"reminderid\": \"742\",
+    \"status\": \"Confirmed\"
+}" (6d42d084)

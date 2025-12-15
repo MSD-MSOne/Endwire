@@ -1,0 +1,282 @@
+2024-07-18T09:57:33.9571785-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T09:57:33.9988138-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T09:57:34.0272221-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T09:57:34.0392265-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T09:57:34.0448228-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T09:58:35.3136207-07:00 0HN579AS1FA96:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 205
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T09:58:36.6097545-07:00 0HN579AS1FA96:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 145,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T10:00:31.6134193-07:00 0HN579AS1FA96:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-07-18T10:00:31.6470002-07:00 0HN579AS1FA96:00000002 [INF] ResponseBody: "{\"reminderId\":626,\"timeStamp\":\"07/18/2024 16:58:59\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-18T10:00:32.3510760-07:00  [INF] start ...  (32234bea)
+2024-07-18T10:01:34.5146490-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T10:01:34.5270528-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T10:01:34.5417612-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T10:01:34.5501660-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T10:01:34.5536786-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T10:07:19.7101630-07:00 0HN579D3ONP7V:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 205
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T10:07:24.6276900-07:00 0HN579D3ONP7V:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 226,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T10:14:14.0252534-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T10:14:14.0445918-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T10:14:14.0624604-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T10:14:14.0723159-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T10:14:14.0765270-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T10:45:34.7932091-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T10:45:34.8047113-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T10:45:34.8174262-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T10:45:34.8334110-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T10:45:34.8396939-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T10:45:53.3935145-07:00 0HN57A5MKSJ63:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 225
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T10:45:53.9181313-07:00 0HN57A5MKSJ63:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 222,
+     \"nudgeId\":17,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T10:47:49.1334906-07:00 0HN57A5MKSJ63:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (2dd9b5c4)
+2024-07-18T10:49:56.5447207-07:00 0HN57A5MKSJ63:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":630}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":867},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":868}]","timeStamp":"7/18/2024 10:47:48 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (30019e11)
+2024-07-18T10:50:47.7921698-07:00 0HN57A5MKSJ63:00000002 [INF] First Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (f64c3d22)
+2024-07-18T10:51:17.9818281-07:00 0HN57A5MKSJ63:00000002 [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":630}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":867},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":868}]","timeStamp":"7/18/2024 10:50:46 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (7dd3d9c5)
+2024-07-18T10:51:35.3685068-07:00  [INF] start ...  (32234bea)
+2024-07-18T10:58:57.5106430-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T10:58:57.5259031-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T10:58:57.5472184-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T10:58:57.5559849-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T10:58:57.5591534-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T10:59:10.7720356-07:00 0HN57AD5U4EBB:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 225
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T10:59:11.3481843-07:00 0HN57AD5U4EBB:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 222,
+     \"nudgeId\":17,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T11:00:08.8253738-07:00 0HN57AD5U4EBB:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (2dd9b5c4)
+2024-07-18T11:00:14.7023888-07:00 0HN57AD5U4EBB:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":631}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":869},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":870}]","timeStamp":"7/18/2024 11:00:08 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (270a6330)
+2024-07-18T11:00:23.4554324-07:00 0HN57AD5U4EBB:00000002 [INF] First Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (f64c3d22)
+2024-07-18T11:00:27.9486153-07:00 0HN57AD5U4EBB:00000002 [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":631}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":869},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":870}]","timeStamp":"7/18/2024 11:00:22 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (65ca8ebe)
+2024-07-18T11:00:34.7501584-07:00  [INF] start ...  (32234bea)
+2024-07-18T11:01:29.9712903-07:00 0HN57AD5U4EBB:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-07-18T11:01:31.7113033-07:00 0HN57AD5U4EBB:00000002 [INF] ResponseBody: "{\"reminderId\":631,\"timeStamp\":\"07/18/2024 17:59:17\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-18T11:07:41.4619494-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T11:07:41.5266005-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T11:07:41.5850464-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T11:07:41.5949561-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T11:07:41.6037306-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T11:07:54.6704815-07:00 0HN57AI20S4B4:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 225
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T11:07:55.2022356-07:00 0HN57AI20S4B4:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 222,
+     \"nudgeId\":17,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T11:08:02.2890735-07:00 0HN57AI20S4B4:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (2dd9b5c4)
+2024-07-18T11:08:02.5616710-07:00 0HN57AI20S4B4:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":632}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":871},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":872}]","timeStamp":"7/18/2024 11:08:02 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (4cb82f53)
+2024-07-18T11:08:03.5832478-07:00 0HN57AI20S4B4:00000002 [INF] First Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (f64c3d22)
+2024-07-18T11:08:03.5913839-07:00 0HN57AI20S4B4:00000002 [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":632}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":871},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":872}]","timeStamp":"7/18/2024 11:08:03 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (a73ad63e)
+2024-07-18T11:08:03.7666771-07:00 0HN57AI20S4B4:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-07-18T11:08:03.7856961-07:00 0HN57AI20S4B4:00000002 [INF] ResponseBody: "{\"reminderId\":632,\"timeStamp\":\"07/18/2024 18:07:57\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-18T11:08:04.5444678-07:00  [INF] start ...  (32234bea)
+2024-07-18T11:17:19.9442303-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T11:17:19.9636518-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T11:17:19.9796039-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T11:17:19.9874942-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T11:17:19.9923081-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T11:17:30.8065947-07:00 0HN57ANEEF90P:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 225
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T11:17:31.3627494-07:00 0HN57ANEEF90P:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 222,
+     \"nudgeId\":17,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T11:17:36.5731957-07:00 0HN57ANEEF90P:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (2dd9b5c4)
+2024-07-18T11:17:36.8223286-07:00 0HN57ANEEF90P:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":633}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":873},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":874}]","timeStamp":"7/18/2024 11:17:36 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (f249b33a)
+2024-07-18T11:17:37.4403395-07:00 0HN57ANEEF90P:00000002 [INF] First Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (f64c3d22)
+2024-07-18T11:17:37.4459526-07:00 0HN57ANEEF90P:00000002 [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":633}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":873},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":874}]","timeStamp":"7/18/2024 11:17:37 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (b7164e62)
+2024-07-18T11:17:37.6075591-07:00 0HN57ANEEF90P:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-07-18T11:17:37.6249486-07:00 0HN57ANEEF90P:00000002 [INF] ResponseBody: "{\"reminderId\":633,\"timeStamp\":\"07/18/2024 18:17:34\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-18T11:17:38.1555333-07:00  [INF] start ...  (32234bea)
+2024-07-18T11:31:16.6095425-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-18T11:31:16.6283879-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-18T11:31:16.6416300-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-18T11:31:16.6535050-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-18T11:31:16.6617328-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-18T11:31:27.5247469-07:00 0HN57AV7OBK0I:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 225
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-18T11:31:28.5971018-07:00 0HN57AV7OBK0I:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"Nudge\",
+     \"resourceId\": 222,
+     \"nudgeId\":17,
+     \"recipients\": [{
+           \"userId\": 93
+     },
+     {
+           \"userId\": 168
+     }],
+     \"text\": \"TEST Group Call data message\"
+}" (6d42d084)
+2024-07-18T11:31:41.7625183-07:00 0HN57AV7OBK0I:00000002 [INF] First Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (2dd9b5c4)
+2024-07-18T11:31:42.0639444-07:00 0HN57AV7OBK0I:00000002 [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":634}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":875},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":876}]","timeStamp":"7/18/2024 11:31:41 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (3488d1bd)
+2024-07-18T11:31:44.8443035-07:00 0HN57AV7OBK0I:00000002 [INF] First Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (f64c3d22)
+2024-07-18T11:31:44.8715032-07:00 0HN57AV7OBK0I:00000002 [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"outboxId\":634}","receivedBy":"[{\"userId\":93,\"firstName\":\"Brad\",\"lastName\":\"Oneman\",\"inboxId\":875},{\"userId\":168,\"firstName\":\"Guy\",\"lastName\":\"Nice\",\"inboxId\":876}]","timeStamp":"7/18/2024 11:31:44 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (c4ef7d3b)
+2024-07-18T11:31:45.2524731-07:00 0HN57AV7OBK0I:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-07-18T11:31:45.3105897-07:00 0HN57AV7OBK0I:00000002 [INF] ResponseBody: "{\"reminderId\":634,\"timeStamp\":\"07/18/2024 18:31:33\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-07-18T11:31:45.7209416-07:00  [INF] start ...  (32234bea)
+2024-07-18T11:32:41.0986324-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":634}","receivedBy":"[{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":875},{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":876}]","timeStamp":"7/18/2024 11:32:40 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (97c3e382)
+2024-07-18T11:32:43.7983012-07:00  [INF] For ReminderId 634 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message  (c262603b)
+2024-07-18T11:33:17.5933866-07:00  [INF] {"token":"dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU","condition":null,"data":{"type":"Reminder","title":"New Reminder","text":"THIRD - Blah","status":"Sent","sentBy":"{\"UserId\":91,\"FirstName\":\"Don\",\"LastName\":\"Tuse\",\"OutboxId\":634}","receivedBy":"[{\"UserId\":93,\"FirstName\":\"Brad\",\"LastName\":\"Oneman\",\"InboxId\":875},{\"UserId\":168,\"FirstName\":\"Guy\",\"LastName\":\"Nice\",\"InboxId\":876}]","timeStamp":"7/18/2024 11:33:17 AM"},"notification":null,"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (cd72cadd)
+2024-07-18T11:33:27.2713324-07:00  [INF] For ReminderId 634 in Loop 1 or user 168 - Sending notification to RegToken dAZvO0kpTUSTLTM0x0OsDa:APA91bHXh_-X4vA21jPYmB8LsJi1I-WNDAifeBP6gO9NLT0Z5-r8Yfk6i5ohKChnprUM7ZdMFwGJDYqseJkL4gOOvq4l1nj1I_DDIHlI8AyNGDmDMsINzt8KuPjkwpa-QJ9nW60HeFsU with message  (da74497c)

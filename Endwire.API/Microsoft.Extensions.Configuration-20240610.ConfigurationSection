@@ -1,0 +1,191 @@
+2024-06-10T14:21:51.4562598-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-10T14:21:51.4743328-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-10T14:21:51.4858003-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T14:21:51.4931658-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-10T14:21:51.4958305-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-10T14:22:06.2314578-07:00 0HN49IDC89D4E:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/timertasks
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T14:22:11.2499384-07:00 0HN49IDC89D4E:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 122 (999214c4)
+2024-06-10T14:22:11.2704663-07:00 0HN49IDC89D4E:00000002 [INF] ResponseBody: "{\"tasks\":[{\"taskId\":20,\"name\":\"NewTimer1\",\"time\":300},{\"taskId\":30,\"name\":\"TIMEOFF\",\"time\":3650}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-10T14:23:01.8502010-07:00 0HN49IDC89D4E:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/timertasks
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T14:23:02.0940988-07:00 0HN49IDC89D4E:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 69 (999214c4)
+2024-06-10T14:23:02.0995780-07:00 0HN49IDC89D4E:00000003 [INF] ResponseBody: "{\"tasks\":[{\"taskId\":0,\"name\":null,\"time\":0}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-10T14:26:46.4154096-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-10T14:26:46.4230349-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-10T14:26:46.4338705-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T14:26:46.4381163-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-10T14:26:46.4396457-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-10T14:26:57.2202602-07:00 0HN49IG42C83V:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/timertasks
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T14:27:01.8175489-07:00 0HN49IG42C83V:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 69 (999214c4)
+2024-06-10T14:27:01.8359242-07:00 0HN49IG42C83V:00000002 [INF] ResponseBody: "{\"tasks\":[{\"taskId\":0,\"name\":null,\"time\":0}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-10T14:28:44.8821835-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-10T14:28:44.9142969-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-10T14:28:44.9331088-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T14:28:44.9443408-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-10T14:28:44.9506847-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-10T14:29:01.8334690-07:00 0HN49IH7BDA97:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/timertasks
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T14:39:43.4844735-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-10T14:39:43.4962428-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-10T14:39:43.5073227-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T14:39:43.5133080-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-10T14:39:43.5177850-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-10T14:40:04.5175053-07:00 0HN49INBLMJVM:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/timertasks
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T14:40:12.8382226-07:00 0HN49INBLMJVM:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 36 (999214c4)
+2024-06-10T14:40:12.8596742-07:00 0HN49INBLMJVM:00000002 [INF] ResponseBody: "{\"tasks\":[],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-10T14:43:23.5522105-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-10T14:43:23.5629537-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-10T14:43:23.5724410-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T14:43:23.5777515-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-10T14:43:23.5809550-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-10T14:43:58.8209861-07:00 0HN49IPD90HS6:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/timertasks
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T14:44:06.1579059-07:00 0HN49IPD90HS6:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 122 (999214c4)
+2024-06-10T14:44:06.1796186-07:00 0HN49IPD90HS6:00000002 [INF] ResponseBody: "{\"tasks\":[{\"taskId\":20,\"name\":\"NewTimer1\",\"time\":300},{\"taskId\":30,\"name\":\"TIMEOFF\",\"time\":3650}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-10T20:37:53.8335003-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-10T20:37:53.8429115-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-10T20:37:53.8510444-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-10T20:37:53.8555519-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-10T20:37:53.8577314-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-10T20:38:09.3826378-07:00 0HN49OVG8EFS4:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 56
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T20:38:10.2771917-07:00 0HN49OVG8EFS4:00000002 [INF] RequestBody: "{
+    \"reminderid\": \"106\",
+    \"status\": \"Canceled\"
+}" (6d42d084)
+2024-06-10T21:17:33.6141231-07:00 0HN49OVG8EFS4:00000002 [ERR] Error in FcmNotification.PushFcmNotificationAsync with message Requested entity was not found. (2534f337)
+2024-06-10T21:17:33.7398499-07:00 0HN49OVG8EFS4:00000002 [ERR] Error in ReminderProvider.ChangeReminderStatusAsync with message Requested entity was not found. (400493c5)
+2024-06-10T21:17:34.1149355-07:00 0HN49OVG8EFS4:00000002 [ERR] Error in ReminderController.ChangeReminderStatusAsync AuthToken = 0C512A15-FC17-4762-A79F-7B178EA9F032 with message    at FirebaseAdmin.Util.ErrorHandlingHttpClient`1.SendAndReadAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FirebaseAdmin.Util.ErrorHandlingHttpClient`1.SendAndDeserializeAsync[TResult](HttpRequestMessage request, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessagingClient.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message)
+   at EndWire.Services.ServiceProviders.FcmNotification.PushFcmNotificationAsync(NotificationRequest request) in C:\Projects\endwire\Endwire.Services\ServiceProviders\FcmNotification.cs:line 58
+   at EndWire.Services.ServiceProviders.ReminderProvider.ChangeReminderStatusAsync(ChangeReminderStatusRequest request) in C:\Projects\endwire\Endwire.Services\ServiceProviders\ReminderProvider.cs:line 142
+   at EndWire.API.Controllers.RemindersController.ChangeReminderStatusAsync(String authToken, ChangeReminderStatusRequest request) in C:\Projects\endwire\Endwire.API\Controllers\RemindersController.cs:line 84 (6b1402b2)
+2024-06-10T21:17:34.1568067-07:00 0HN49OVG8EFS4:00000002 [INF] Response:
+StatusCode: 500
+Content-Type: text/plain; charset=utf-8 (999214c4)
+2024-06-10T21:17:34.1725878-07:00 0HN49OVG8EFS4:00000002 [INF] ResponseBody: "AuthToken 0C512A15-FC17-4762-A79F-7B178EA9F032 ChangeReminderStatusAsync failed with message {ex.Message." (c7a8e6fd)
+2024-06-10T21:18:25.2765953-07:00 0HN49OVG8EFS4:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/changereminderstatus
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.33.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 57
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-10T21:18:25.2851774-07:00 0HN49OVG8EFS4:00000003 [INF] RequestBody: "{
+    \"reminderid\": \"141\",
+    \"status\": \"Confirmed\"
+}" (6d42d084)
+2024-06-10T21:19:02.7923246-07:00 0HN49OVG8EFS4:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 71 (999214c4)
+2024-06-10T21:19:02.7981890-07:00 0HN49OVG8EFS4:00000003 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":null,\"status\":null,\"apiResponse\":\"Success\"}" (c7a8e6fd)

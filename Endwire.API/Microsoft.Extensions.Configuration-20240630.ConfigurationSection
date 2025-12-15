@@ -1,0 +1,90 @@
+2024-06-30T04:52:17.0626900-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-06-30T04:52:17.0777139-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-06-30T04:52:17.0938925-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-06-30T04:52:17.1024742-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-06-30T04:52:17.1076477-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-06-30T04:52:26.0256139-07:00 0HN4OVCBG91OC:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 206
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-30T04:52:26.7494919-07:00 0HN4OVCBG91OC:00000002 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 91
+     },
+     {
+           \"userId\": 93
+     }],
+     \"text\": \"TEST Group Call message json\"
+}" (6d42d084)
+2024-06-30T04:53:01.3312886-07:00 0HN4OVCBG91OC:00000002 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 125 (999214c4)
+2024-06-30T04:53:01.3398447-07:00 0HN4OVCBG91OC:00000002 [INF] ResponseBody: "{\"reminderId\":0,\"timeStamp\":\"06/30/2024 11:52:43\",\"status\":\"Not Sent\",\"apiResponse\":\"Invalid or Expired Authorization Token\"}" (c7a8e6fd)
+2024-06-30T04:53:24.6713474-07:00 0HN4OVCBG91OC:00000003 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/sendreminder
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 206
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-30T04:53:24.6874442-07:00 0HN4OVCBG91OC:00000003 [INF] RequestBody: "{
+    \"reminderType\": \"general\",
+     \"resourceId\": 134,
+     \"recipients\": [{
+           \"userId\": 91
+     },
+     {
+           \"userId\": 93
+     }],
+     \"text\": \"TEST Group Call message json\"
+}" (6d42d084)
+2024-06-30T04:55:17.2732225-07:00 0HN4OVCBG91OC:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 92 (999214c4)
+2024-06-30T04:55:17.2871202-07:00 0HN4OVCBG91OC:00000003 [INF] ResponseBody: "{\"reminderId\":552,\"timeStamp\":\"06/30/2024 11:53:48\",\"status\":\"Sent\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2024-06-30T04:55:17.3167695-07:00  [INF] start ...  (32234bea)
+2024-06-30T04:55:21.4746504-07:00  [INF] {"token":"dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3","condition":null,"data":{"userId":"93","reminderId":"552","timeStamp":"6/30/2024 4:55:17 AM","status":null},"notification":{"title":"Send Reminder","body":"TEST Group Call message json-Bar","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (64439eeb)
+2024-06-30T04:55:21.9468531-07:00  [INF] For ReminderId 552 in Loop 1 or user 93 - Sending notification to RegToken dSnVWhtJQP-0RXl2RAI6CR:APA91bEL_CRJLkJUbaKGjD4x5ElGN6tTKjiY0uGhWLWZFlnfNKYCASRzKrPmiUJzZvtE8alRjUk4N8NZ9xvwmPv-Q7a4ubTZTINZmZOjHM9sui4djU8kvdT1lgGduXTmBWrs7duAZrK3 with message TEST Group Call message json-Bar (7e8a1a02)
+2024-06-30T04:55:23.4472434-07:00  [INF] {"token":"d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd","condition":null,"data":{"userId":"91","reminderId":"552","timeStamp":"6/30/2024 4:55:22 AM","status":null},"notification":{"title":"Send Reminder","body":"TEST Group Call message json-Bar","image":null},"android":null,"webpush":null,"apns":null,"fcm_options":null,"topic":null} (d72ab1b1)
+2024-06-30T04:55:23.5748481-07:00  [INF] For ReminderId 552 in Loop 1 or user 91 - Sending notification to RegToken d7NzNUx8Tnm_V02zndUHKb:APA91bE7wuR34uVhhcv5wWs4kk7m93UpcC_kzChTaOAD020-m5tT9VAc5MAGqYaD4nPlzxnqGqHIir5ySD-7aSgGkHjdaglkY_MBer8ULQqG5c55IP04QxR6bq-YoTmVFfRRl4c4JAfd with message TEST Group Call message json-Bar (92544092)
+2024-06-30T05:11:38.9754538-07:00 0HN4OVCBG91OC:00000004 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/reminders
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.37.3
+Accept-Encoding: gzip, deflate, br
+authToken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-06-30T05:17:24.6161284-07:00 0HN4OVCBG91OC:00000004 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 291 (999214c4)
+2024-06-30T05:17:24.6275368-07:00 0HN4OVCBG91OC:00000004 [INF] ResponseBody: "{\"reminders\":[{\"reminderId\":729,\"reminderType\":\"Nudge\",\"sender\":{\"userId\":91,\"firstName\":\"Don\",\"lastName\":\"Tuse\",\"picture\":\"\"},\"resourceId\":145,\"resource\":\"Foo\",\"nudgeId\":15,\"text\":\"FIRST\",\"timeStamp\":\"06/28/2024 19:52:51\",\"status\":\"Sent\",\"multipleRecipients\":true}],\"apiResponse\":\"Success\"}" (c7a8e6fd)

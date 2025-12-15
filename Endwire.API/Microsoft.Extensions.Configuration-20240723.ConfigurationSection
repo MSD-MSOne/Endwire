@@ -1,0 +1,29 @@
+2024-07-23T18:41:51.8572482-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-23T18:41:51.8674338-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-23T18:41:51.8771935-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-23T18:41:51.8831308-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-23T18:41:51.8860402-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)
+2024-07-23T18:41:57.2389470-07:00 0HN5BG75AKMCA:00000002 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/acceptcall
+Accept: */*
+Connection: keep-alive
+Host: localhost:7158
+User-Agent: PostmanRuntime/7.40.0
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 67
+authtoken: [Redacted]
+Postman-Token: [Redacted] (893de8da)
+2024-07-23T18:41:57.7713829-07:00 0HN5BG75AKMCA:00000002 [INF] RequestBody: "{
+    \"channelId\": \"MX28I3MZGNE89EB8OQSN\",
+     \"Accept\": true
+}" (6d42d084)
+2024-07-23T23:59:02.8461054-07:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2024-07-23T23:59:02.8530499-07:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2024-07-23T23:59:02.8579222-07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-23T23:59:02.8614730-07:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-07-23T23:59:02.8629935-07:00  [INF] Content root path: "C:\Projects\endwire\Endwire.API" (b5d60022)

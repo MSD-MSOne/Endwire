@@ -1,0 +1,5 @@
+2025-12-15T18:04:09.9355738-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-12-15T18:04:09.9403931-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-12-15T18:04:10.1239436-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-15T18:04:10.1566457-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-15T18:04:10.1580699-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
