@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs
+/Endwire.API/bin
+/Endwire.API/.config
+/Endwire.API/obj
+/Endwire.API/Properties
+/Endwire.Core/bin
+/Endwire.Core/obj
+/Endwire.Domain/bin
+/Endwire.Domain/obj
+/Endwire.Infrastructure/bin
+/Endwire.Infrastructure/obj
+/Endwire.Services/bin
+/Endwire.Services/obj
