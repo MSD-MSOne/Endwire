@@ -81,9 +81,9 @@ namespace EndWire.API.Controllers
                 
                 foreach (var u in userResponse)
                 {
-                    if(u.UserId != 0  && !users.Any(ur => ur.UserId==u.UserId))
+                    if(u.UserId != 0 && !u.Subsection.ToString().Equals("startedBy") && !users.Any(ur => ur.UserId==u.UserId))
                     {
-                        users.Add(new RtcCallUser { UserId = u.UserId, CallToken = u.RegToken, Status=u.Status });
+                        users.Add(new RtcCallUser { UserId = u.UserId, Status=u.Status });
                     }
 
                    //var currentRegToken = u.RegToken;
