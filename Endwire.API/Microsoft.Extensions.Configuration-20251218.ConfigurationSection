@@ -1,0 +1,308 @@
+2025-12-18T17:17:12.2597599-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-12-18T17:17:12.2646128-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-12-18T17:17:12.4466768-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-18T17:17:12.4485660-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-18T17:17:12.4509924-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2025-12-18T17:21:40.4414696-05:00 0HNHUGCOL1DC8:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 100
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:21:40.8575149-05:00 0HNHUGCOL1DC8:00000009 [INF] RequestBody: "{
+  \"authToken\": \"string\",
+  \"users\": [
+    {
+      \"userId\": 0
+    }
+  ],
+  \"channelId\": \"string\"
+}""" (7ce70a12)
+2025-12-18T17:21:45.5093974-05:00 0HNHUGCOL1DC8:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 241 (8b8e65b7)
+2025-12-18T17:21:45.5158009-05:00 0HNHUGCOL1DC8:00000009 [INF] ResponseBody: "{\"channelId\":\"5Y2J4IUEQ6PGLKQT3VVG\",\"users\":[{\"userId\":91,\"callToken\":\"\",\"status\":\"\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IADxGmyMIWt97VUkGjUV/Zw8iv90zYECkz1416KJeP+PShU98gUICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:21:45.5266128-05:00 0HNHUGCOL1DC8:00000009 [INF] Duration: 5086.5273ms (fbe12062)
+2025-12-18T17:22:47.0606676-05:00 0HNHUGCOL1DC8:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:22:47.0643870-05:00 0HNHUGCOL1DC8:0000000B [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 91}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:22:47.2008625-05:00 0HNHUGCOL1DC8:0000000B [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 291 (8b8e65b7)
+2025-12-18T17:22:47.2041800-05:00 0HNHUGCOL1DC8:0000000B [INF] ResponseBody: "{\"channelId\":\"PMJ97D4EL4XA81XF12B2\",\"users\":[{\"userId\":91,\"callToken\":\"\",\"status\":\"\"},{\"userId\":93,\"callToken\":\"\",\"status\":\"Available\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAA04mlLOl+nEu2tyqjAkCb3z5dsyNBKcqlo7jpRPHdKbfQ8eMoICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:22:47.2388218-05:00 0HNHUGCOL1DC8:0000000B [INF] Duration: 146.0543ms (fbe12062)
+2025-12-18T17:26:24.9488638-05:00 0HNHUGCOL1DC8:0000000D [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 72
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:26:25.0032306-05:00 0HNHUGCOL1DC8:0000000D [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 168}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:26:25.1753930-05:00 0HNHUGCOL1DC8:0000000D [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 342 (8b8e65b7)
+2025-12-18T17:26:25.1795269-05:00 0HNHUGCOL1DC8:0000000D [INF] ResponseBody: "{\"channelId\":\"L3MQMIUE9TVDE14HA8SO\",\"users\":[{\"userId\":91,\"callToken\":\"\",\"status\":\"\"},{\"userId\":93,\"callToken\":\"\",\"status\":\"Available\"},{\"userId\":168,\"callToken\":\"\",\"status\":\"Available\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAAMCveybRTDRhTQ094pV1IrrN0WHko3FxELvlq4rmMoRfLxHPMICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:26:25.2134116-05:00 0HNHUGCOL1DC8:0000000D [INF] Duration: 233.1405ms (fbe12062)
+2025-12-18T17:30:22.0457282-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-12-18T17:30:22.0530072-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-12-18T17:30:22.3065881-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-18T17:30:22.3087096-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-18T17:30:22.3103118-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2025-12-18T17:30:59.1316693-05:00 0HNHUGK45LKGI:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 72
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:30:59.4746171-05:00 0HNHUGK45LKGI:00000009 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 168}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:31:02.0744607-05:00 0HNHUGK45LKGI:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 241 (8b8e65b7)
+2025-12-18T17:31:02.0833415-05:00 0HNHUGK45LKGI:00000009 [INF] ResponseBody: "{\"channelId\":\"TG36WOB79TKSIH0EP61M\",\"users\":[{\"userId\":91,\"callToken\":\"\",\"status\":\"\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IABujlJwf9pO0BviEQLcURcz0uR3CxBtlrhpPn0J1bcJnR/UfXkICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:31:02.1012569-05:00 0HNHUGK45LKGI:00000009 [INF] Duration: 2968.98ms (fbe12062)
+2025-12-18T17:31:25.9414575-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-12-18T17:31:25.9467456-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-12-18T17:31:26.1251924-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-18T17:31:26.1267705-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-18T17:31:26.1281699-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2025-12-18T17:31:55.7389816-05:00 0HNHUGKN3GA1F:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 72
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:31:56.0937246-05:00 0HNHUGKN3GA1F:00000009 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 168}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:31:58.4509330-05:00 0HNHUGKN3GA1F:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 301 (8b8e65b7)
+2025-12-18T17:31:58.4599167-05:00 0HNHUGKN3GA1F:00000009 [INF] ResponseBody: "{\"channelId\":\"8J5HR3IHOIYPMNCGFM0C\",\"users\":[{\"userId\":93,\"callToken\":\"\",\"status\":\"Available\"},{\"userId\":168,\"callToken\":\"\",\"status\":\"Available\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IADP9oFEaQzCwlCMgfrLliMst32fGgohZA0qI/VcZT3oLwd7ngUICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:31:58.4765694-05:00 0HNHUGKN3GA1F:00000009 [INF] Duration: 2759.2599ms (fbe12062)
+2025-12-18T17:34:50.1194263-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-12-18T17:34:50.1241733-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-12-18T17:34:50.5648362-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-18T17:34:50.5666013-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-18T17:34:50.5682166-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2025-12-18T17:35:07.7799477-05:00 0HNHUGMK01ACF:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:35:08.0498692-05:00 0HNHUGMK01ACF:00000009 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 91}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:35:10.8240179-05:00 0HNHUGMK01ACF:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 304 (8b8e65b7)
+2025-12-18T17:35:10.8332491-05:00 0HNHUGMK01ACF:00000009 [INF] ResponseBody: "{\"channelId\":\"IADNHALB06AYTWMLV3XZ\",\"users\":[{\"userId\":93,\"callToken\":null,\"status\":\"Available\"},{\"userId\":91,\"callToken\":null,\"status\":\"Available\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAAuaDj10OGbxUt7j1pVSuYqrgOeAXBEFdBp1Kk7s653QhHF/z4ICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:35:10.8507238-05:00 0HNHUGMK01ACF:00000009 [INF] Duration: 3063.5274ms (fbe12062)
+2025-12-18T17:35:33.7999954-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2025-12-18T17:35:33.8066355-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2025-12-18T17:35:33.9522996-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-12-18T17:35:33.9545955-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-12-18T17:35:33.9855815-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2025-12-18T17:36:04.4853269-05:00 0HNHUGN0UKMVF:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 72
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:36:04.7699701-05:00 0HNHUGN0UKMVF:00000009 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 168}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:36:07.4576952-05:00 0HNHUGN0UKMVF:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 269 (8b8e65b7)
+2025-12-18T17:36:07.5020824-05:00 0HNHUGN0UKMVF:00000009 [INF] ResponseBody: "{\"channelId\":\"65YGEWSE0B7U84C2FGDZ\",\"users\":[{\"userId\":93,\"status\":\"Available\"},{\"userId\":168,\"status\":\"Offline\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IABdG0xK1ft6Wio/tYBGBZIuSrjijv6B4yYkx+h9hzuwdXLjwXUICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:36:07.5150045-05:00 0HNHUGN0UKMVF:00000009 [INF] Duration: 3033.8224ms (fbe12062)
+2025-12-18T17:47:35.8927090-05:00 0HNHUGN0UKMVF:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 72
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2025-12-18T17:47:35.8980650-05:00 0HNHUGN0UKMVF:0000000B [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 168}
+    ]
+} """ (7ce70a12)
+2025-12-18T17:47:36.2266357-05:00 0HNHUGN0UKMVF:0000000B [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 275 (8b8e65b7)
+2025-12-18T17:47:36.2308306-05:00 0HNHUGN0UKMVF:0000000B [INF] ResponseBody: "{\"channelId\":\"TAHPMH7KFBMSKXLT0X0G\",\"users\":[{\"userId\":93,\"status\":\"Unavailable\"},{\"userId\":168,\"status\":\"Unavailable\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAD8TrxEyLFUy68GsvlyBIYyv93JAR4VVC7fd/lDmZawDtQKYVoICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2025-12-18T17:47:36.2346216-05:00 0HNHUGN0UKMVF:0000000B [INF] Duration: 341.2881ms (fbe12062)

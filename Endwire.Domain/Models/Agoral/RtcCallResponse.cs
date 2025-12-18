@@ -25,7 +25,7 @@ namespace EndWire.Domain.Models
     public class RtcCallUser
     {
         public int UserId { get; set; }
-        public string CallToken { get; set; }
+  //      public string CallToken { get; set; }
 
         public string Status { get; set; }
     }
