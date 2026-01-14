@@ -34,20 +34,22 @@ namespace EndWire.Services.ServiceProviders
             _broadcastRepository = broadcastRepository;
             _rtcServiceProvider = rtcServiceProvider;
             _fcmNotification = fcmNotification;
-            _logger = logger; 
+            _logger = logger;
         }
         public async Task<BroadcastResponse> StartBroadcastAsync(BroadcastRequest request)
         {
-            request.ChannelId = request.ChannelId ?? (_channelName +RandomStringHelper.RandomString(20));
+            request.ChannelId = request.ChannelId ?? (_channelName + RandomStringHelper.RandomString(20));
             BroadcastResponse response = new BroadcastResponse();
             List<RtcUser> rtcUsers = new List<RtcUser>();
 
             var result = await _broadcastRepository.StartBroadcastAsync(request);
             try
             {
-                if (result?.FirstOrDefault()?.UserId > 0)
+                // if (result?.FirstOrDefault()?.UserId > 0)
+                // {
+                foreach (var r in result)
                 {
-                    foreach (var r in result)
+                    if (r.UserId > 0)
                     {
                         var callToken = _rtcServiceProvider.GetRtcAccessToken(request.ChannelId);
                         var notificationRequest = new NotificationRequest { Title = "Start Broadcast", Body = r.FCMMessage, RegToken = r.RegToken };
@@ -59,12 +61,13 @@ namespace EndWire.Services.ServiceProviders
                         var fcmResponse = await _fcmNotification.PushFcmNotificationAsync(notificationRequest);
                     }
                 }
+                //}
                 //response.Recipients = rtcUsers;
                 if (result?.FirstOrDefault()?.UserId > 0)
                 {
                     response.CallToken = _rtcServiceProvider.GetRtcAccessToken(request.ChannelId);
                     response.ChannelId = request.ChannelId;
-                    response.Recipients = result.Select (x=>new RtcUser { UserId = x.UserId}).ToList();
+                    response.Recipients = result.Select(x => new RtcUser { UserId = x.UserId }).ToList();
                 }
                 response.APIResponse = result?.FirstOrDefault()?.APIResponse;
             }
@@ -79,7 +82,7 @@ namespace EndWire.Services.ServiceProviders
         public async Task<EndBroadcastResponse> EndBroadcastAsync(EndBroadcastRequest request)
         {
             var response = await _broadcastRepository.EndBroadcastAsync(request);
-            return response?? new EndBroadcastResponse { Status="", APIResponse="BadToken" };
+            return response ?? new EndBroadcastResponse { Status = "", APIResponse = "BadToken" };
         }
 
     }

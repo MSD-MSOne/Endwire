@@ -1,0 +1,749 @@
+2026-01-13T18:01:31.3775822-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:01:31.3816783-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:01:31.6249414-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:01:31.6559212-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:01:31.6872447-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:14:24.3720217-05:00 0HNIIUUOJS9FU:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:14:24.6966433-05:00 0HNIIUUOJS9FU:00000001 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 91}
+    ]
+} """ (7ce70a12)
+2026-01-13T18:15:17.7798815-05:00 0HNIIUUOJS9FU:00000001 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 270 (8b8e65b7)
+2026-01-13T18:15:17.7876146-05:00 0HNIIUUOJS9FU:00000001 [INF] ResponseBody: "{\"channelId\":\"NMGPPMTF2KMD4DNVJF3V\",\"users\":[{\"userId\":93,\"status\":\"Available\"},{\"userId\":91,\"status\":\"Available\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAAQQPyg/ZIepF5VgGoSYm/IG8liKPE7v5RiuxAceIHbqugsf7UICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2026-01-13T18:15:17.8026945-05:00 0HNIIUUOJS9FU:00000001 [INF] Duration: 53441.9162ms (fbe12062)
+2026-01-13T18:15:41.6143352-05:00 0HNIIUUOJS9FU:00000003 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:15:41.6251714-05:00 0HNIIUUOJS9FU:00000003 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 91}
+    ]
+} """ (7ce70a12)
+2026-01-13T18:16:31.9758803-05:00 0HNIIUUOJS9FU:00000003 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 272 (8b8e65b7)
+2026-01-13T18:16:31.9803115-05:00 0HNIIUUOJS9FU:00000003 [INF] ResponseBody: "{\"channelId\":\"ABKDDU48Z1VFDAYL73GV\",\"users\":[{\"userId\":93,\"status\":\"Unavailable\"},{\"userId\":91,\"status\":\"Available\"}],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IAAyFkNxa2VGCCvRzz1FY0+ihc+EeCT9fnTMBN3Z/W8jSVT8UQ4ICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2026-01-13T18:16:31.9839614-05:00 0HNIIUUOJS9FU:00000003 [INF] Duration: 50372.9402ms (fbe12062)
+2026-01-13T18:17:31.6235578-05:00 0HNIIUUOJS9FU:00000005 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/1.0/nudges
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: [Redacted]
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:18:02.3365046-05:00 0HNIIUUOJS9FU:00000005 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 128 (8b8e65b7)
+2026-01-13T18:18:02.3383217-05:00 0HNIIUUOJS9FU:00000005 [INF] ResponseBody: "{\"nudges\":[{\"nudgeId\":15,\"nudge\":\"FIRST\"},{\"nudgeId\":17,\"nudge\":\"THIRD\"},{\"nudgeId\":53,\"nudge\":\"TEST\"}],\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2026-01-13T18:18:02.3674387-05:00 0HNIIUUOJS9FU:00000005 [INF] Duration: 30739.8062ms (fbe12062)
+2026-01-13T18:24:38.7603823-05:00 0HNIIUUOJS9FU:00000007 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:24:38.7674067-05:00 0HNIIUUOJS9FU:00000007 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 91}
+    ]
+} """ (7ce70a12)
+2026-01-13T18:25:18.5749738-05:00 0HNIIUUOJS9FU:00000007 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 201 (8b8e65b7)
+2026-01-13T18:25:18.6186787-05:00 0HNIIUUOJS9FU:00000007 [INF] ResponseBody: "{\"channelId\":\"QLSRP1NOX58L091IF4Z2\",\"users\":[],\"callToken\":\"006c5ada4e280e249f185432cc3498ad906IADdWCOuir4aKRtiIGsoUpiShU18TKSPcyhw8DrV6ih8Sh2UsUgICRGAEAABAAAAR/QQAAEAAQCvKDdW\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2026-01-13T18:25:18.6205075-05:00 0HNIIUUOJS9FU:00000007 [INF] Duration: 39861.6895ms (fbe12062)
+2026-01-13T18:25:30.8322642-05:00 0HNIIUUOJS9FU:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/callrequest
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 71
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:25:30.8354621-05:00 0HNIIUUOJS9FU:00000009 [INF] RequestBody: "{
+   \"users\": [
+        {\"userid\": 93},
+        {\"userid\": 91}
+    ]
+} """ (7ce70a12)
+2026-01-13T18:26:57.2908152-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:26:57.3009307-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:26:57.4468614-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:26:57.4507045-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:26:57.4847186-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:28:00.0681313-05:00 0HNIIVCV8MASP:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/settime
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 36
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:28:00.1723260-05:00 0HNIIVCV8MASP:00000009 [INF] RequestBody: "{
+  \"taskId\": 0,
+  \"resourceId\": 0
+}""" (7ce70a12)
+2026-01-13T18:33:00.2488725-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:33:00.2550224-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:33:00.5677280-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:33:00.5705943-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:33:00.6060591-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:33:27.2266709-05:00 0HNIIVGBF9L2H:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/settime
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 37
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:33:27.3428124-05:00 0HNIIVGBF9L2H:00000009 [INF] RequestBody: "{
+  \"taskId\": 5,
+  \"resourceId\": 36
+}""" (7ce70a12)
+2026-01-13T18:34:00.9047053-05:00 0HNIIVGBF9L2H:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 57 (8b8e65b7)
+2026-01-13T18:34:00.9085470-05:00 0HNIIVGBF9L2H:00000009 [INF] ResponseBody: "{\"status\":\"Unable to set timer.\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2026-01-13T18:34:00.9159776-05:00 0HNIIVGBF9L2H:00000009 [INF] Duration: 33695.077ms (fbe12062)
+2026-01-13T18:34:37.2558901-05:00 0HNIIVGBF9L2H:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/settime
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 37
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:34:37.2608351-05:00 0HNIIVGBF9L2H:0000000B [INF] RequestBody: "{
+  \"taskId\": 5,
+  \"resourceId\": 36
+}""" (7ce70a12)
+2026-01-13T18:34:39.6303455-05:00 0HNIIVGBF9L2H:0000000B [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 57 (8b8e65b7)
+2026-01-13T18:34:39.6358357-05:00 0HNIIVGBF9L2H:0000000B [INF] ResponseBody: "{\"status\":\"Unable to set timer.\",\"apiResponse\":\"Success\"}" (c7a8e6fd)
+2026-01-13T18:34:39.6388586-05:00 0HNIIVGBF9L2H:0000000B [INF] Duration: 2382.035ms (fbe12062)
+2026-01-13T18:34:48.4485924-05:00 0HNIIVGBF9L2H:0000000D [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/settime
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Content-Type: application/json-patch+json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 37
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:34:48.4565114-05:00 0HNIIVGBF9L2H:0000000D [INF] RequestBody: "{
+  \"taskId\": 5,
+  \"resourceId\": 36
+}""" (7ce70a12)
+2026-01-13T18:41:12.6777769-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:41:12.6841348-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:41:12.8784303-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:41:12.8860670-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:41:12.8877064-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:42:37.1240860-05:00 0HNIIVKU7P7AS:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:43:22.9362112-05:00 0HNIIVKU7P7AS:00000009 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 70 (8b8e65b7)
+2026-01-13T18:43:22.9429900-05:00 0HNIIVKU7P7AS:00000009 [INF] ResponseBody: "{\"recipients\":[],\"channelId\":null,\"callToken\":null,\"apiResponse\":null}" (c7a8e6fd)
+2026-01-13T18:43:22.9514121-05:00 0HNIIVKU7P7AS:00000009 [INF] Duration: 45852.5091ms (fbe12062)
+2026-01-13T18:43:25.7388668-05:00 0HNIIVKU7P7AS:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:44:45.9903879-05:00 0HNIIVKU7P7AS:0000000B [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 70 (8b8e65b7)
+2026-01-13T18:44:45.9938557-05:00 0HNIIVKU7P7AS:0000000B [INF] ResponseBody: "{\"recipients\":[],\"channelId\":null,\"callToken\":null,\"apiResponse\":null}" (c7a8e6fd)
+2026-01-13T18:44:45.9971834-05:00 0HNIIVKU7P7AS:0000000B [INF] Duration: 80256.7356ms (fbe12062)
+2026-01-13T18:46:24.7850401-05:00 0HNIIVKU7P7AS:0000000D [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:48:01.3256563-05:00 0HNIIVKU7P7AS:0000000D [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 70 (8b8e65b7)
+2026-01-13T18:48:01.3269289-05:00 0HNIIVKU7P7AS:0000000D [INF] ResponseBody: "{\"recipients\":[],\"channelId\":null,\"callToken\":null,\"apiResponse\":null}" (c7a8e6fd)
+2026-01-13T18:48:01.3280580-05:00 0HNIIVKU7P7AS:0000000D [INF] Duration: 96581.5858ms (fbe12062)
+2026-01-13T18:48:02.8312148-05:00 0HNIIVKU7P7AS:0000000F [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:48:37.4972370-05:00 0HNIIVKU7P7AS:0000000F [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Content-Length: 70 (8b8e65b7)
+2026-01-13T18:48:37.5274488-05:00 0HNIIVKU7P7AS:0000000F [INF] ResponseBody: "{\"recipients\":[],\"channelId\":null,\"callToken\":null,\"apiResponse\":null}" (c7a8e6fd)
+2026-01-13T18:48:37.5322920-05:00 0HNIIVKU7P7AS:0000000F [INF] Duration: 34699.3529ms (fbe12062)
+2026-01-13T18:49:05.5675329-05:00 0HNIIVKU7P7AS:00000011 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:51:29.3486121-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:51:29.3555539-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:51:29.6039838-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:51:29.6078457-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:51:29.6091788-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:51:40.4071225-05:00 0HNIIVQLVPN5U:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:52:58.1417126-05:00 0HNIIVQLVPN5U:00000009 [INF] {"token":"","condition":null,"data":{"userid":"93","channelid":"endwire-broadcastIOXAV9UD1WJADAXQO456","calltoken":"006c5ada4e280e249f185432cc3498ad906IADEH3SCyzN6iM8UDZ7M4IXOtMvFmlw4Yo4uka86gXlD3wT+RsUICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (4a99233c)
+2026-01-13T18:54:33.1981389-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:54:33.2368576-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:54:33.4118753-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:54:33.4144768-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:54:33.4707740-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:54:51.4242255-05:00 0HNIIVSCOGUFC:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:55:42.2329347-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:55:42.2654371-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:55:42.7062414-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:55:42.7138145-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:55:42.7188708-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:55:52.3388313-05:00 0HNIIVT1DPS38:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T18:56:41.3002697-05:00 0HNIIVT1DPS38:00000009 [INF] {"token":"","condition":null,"data":{"userid":"91","channelid":"endwire-broadcastBV66V77K5MFVKV6BAKB6","calltoken":"006c5ada4e280e249f185432cc3498ad906IAA9XpwyBzMyK4L3yv5Dnp25GXTwmtF+zVcdmhpoQGGVM3PBbAsICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":"TestTopic"} (b289e56c)
+2026-01-13T18:59:22.3876907-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T18:59:22.3934389-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T18:59:22.6085527-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T18:59:22.6463650-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T18:59:22.6797631-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T18:59:34.0763003-05:00 0HNIIVV2UE3GV:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T19:01:32.5789742-05:00 0HNIIVV2UE3GV:00000009 [INF] {"token":"","condition":null,"data":{"userid":"91","channelid":"endwire-broadcast5JN7FUHVP3SKY0M1YCZ6","calltoken":"006c5ada4e280e249f185432cc3498ad906IAC5JQRT7E1NVPLaSYFw/nPl3LWyqf1Zju/ydtOEdS2uLyv+1lwICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (095a13f7)
+2026-01-13T19:02:21.4274726-05:00 0HNIIVV2UE3GV:00000009 [ERR] Error in FcmNotification.PushFcmNotificationAsync with message Exactly one of Token, Topic or Condition is required. (d46842ad)
+2026-01-13T19:02:21.4660177-05:00 0HNIIVV2UE3GV:00000009 [ERR] Error in BroadcastProvider.StartBroadcastAsync with message Exactly one of Token, Topic or Condition is required. (773394d2)
+2026-01-13T19:02:21.6923929-05:00 0HNIIVV2UE3GV:00000009 [ERR] Error in BroadcastController.StartBroadcastAsync AuthToken = 5EAB37EC-84F2-41A7-9190-08F5C95EB620 with message    at FirebaseAdmin.Messaging.Message.CopyAndValidate()
+   at FirebaseAdmin.Messaging.FirebaseMessagingClient.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message)
+   at EndWire.Services.ServiceProviders.FcmNotification.PushFcmNotificationAsync(NotificationRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\FcmNotification.cs:line 72
+   at EndWire.Services.ServiceProviders.BroadcastProvider.StartBroadcastAsync(BroadcastRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\BroadcastProvider.cs:line 61
+   at EndWire.API.Controllers.BroadcastController.StartBroadcastAsync(String authToken) in C:\Users\rianm\source\repos\Endwire\Endwire.API\Controllers\BroadcastController.cs:line 34 (953bd90b)
+2026-01-13T19:02:21.7099679-05:00 0HNIIVV2UE3GV:00000009 [INF] Response:
+StatusCode: 500
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2026-01-13T19:02:21.7220826-05:00 0HNIIVV2UE3GV:00000009 [INF] ResponseBody: "AuthToken 5EAB37EC-84F2-41A7-9190-08F5C95EB620 StartBroadcastAsync failed with message Exactly one of Token, Topic or Condition is required.." (c7a8e6fd)
+2026-01-13T19:02:21.7377847-05:00 0HNIIVV2UE3GV:00000009 [INF] Duration: 167658.7639ms (fbe12062)
+2026-01-13T19:02:23.0361983-05:00 0HNIIVV2UE3GV:0000000B [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T19:04:09.7644736-05:00 0HNIIVV2UE3GV:0000000B [INF] {"token":"","condition":null,"data":{"userid":"91","channelid":"endwire-broadcastNBTTP617B2UM192VTQ9K","calltoken":"006c5ada4e280e249f185432cc3498ad906IACJxQIDLAu9QsSJ1UaTApk9jQMpQS8Q6Djb6F434GjsWRFUwlAICRGAEAABAAAAR/QQAAEAAQCvKDdW"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (3961aef1)
+2026-01-13T19:04:09.7780244-05:00 0HNIIVV2UE3GV:0000000B [ERR] Error in FcmNotification.PushFcmNotificationAsync with message Exactly one of Token, Topic or Condition is required. (d46842ad)
+2026-01-13T19:04:09.8418559-05:00 0HNIIVV2UE3GV:0000000B [ERR] Error in BroadcastProvider.StartBroadcastAsync with message Exactly one of Token, Topic or Condition is required. (773394d2)
+2026-01-13T19:04:09.9014358-05:00 0HNIIVV2UE3GV:0000000B [ERR] Error in BroadcastController.StartBroadcastAsync AuthToken = 5EAB37EC-84F2-41A7-9190-08F5C95EB620 with message    at FirebaseAdmin.Messaging.Message.CopyAndValidate()
+   at FirebaseAdmin.Messaging.FirebaseMessagingClient.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message)
+   at EndWire.Services.ServiceProviders.FcmNotification.PushFcmNotificationAsync(NotificationRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\FcmNotification.cs:line 72
+   at EndWire.Services.ServiceProviders.BroadcastProvider.StartBroadcastAsync(BroadcastRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\BroadcastProvider.cs:line 61
+   at EndWire.API.Controllers.BroadcastController.StartBroadcastAsync(String authToken) in C:\Users\rianm\source\repos\Endwire\Endwire.API\Controllers\BroadcastController.cs:line 34 (953bd90b)
+2026-01-13T19:04:09.9035093-05:00 0HNIIVV2UE3GV:0000000B [INF] Response:
+StatusCode: 500
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2026-01-13T19:04:09.9324807-05:00 0HNIIVV2UE3GV:0000000B [INF] ResponseBody: "AuthToken 5EAB37EC-84F2-41A7-9190-08F5C95EB620 StartBroadcastAsync failed with message Exactly one of Token, Topic or Condition is required.." (c7a8e6fd)
+2026-01-13T19:04:09.9343243-05:00 0HNIIVV2UE3GV:0000000B [INF] Duration: 106901.2052ms (fbe12062)
+2026-01-13T19:04:11.8854484-05:00 0HNIIVV2UE3H0:00000001 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T19:05:29.0886893-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T19:05:29.0913748-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T19:05:29.2902367-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T19:05:29.2938404-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T19:05:29.2960927-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T19:05:41.9269261-05:00 0HNIJ02GBJ1B4:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T19:06:32.0140968-05:00 0HNIJ02GBJ1B4:00000009 [INF] {"token":"","condition":null,"data":{"userid":"91","channelid":"endwire-broadcastLE6TPLYQ16LZSKS82ZQN","calltoken":"006c5ada4e280e249f185432cc3498ad906IAAOO/jWkWqAkVs3OVikDvQVdDeY6YfplIIlHfCW70YnPja9PnEICRGAEACbWGQwDelnaQEAAQCvKDdW"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":null} (719440f5)
+2026-01-13T19:06:44.7008066-05:00 0HNIJ02GBJ1B4:00000009 [ERR] Error in FcmNotification.PushFcmNotificationAsync with message Exactly one of Token, Topic or Condition is required. (d46842ad)
+2026-01-13T19:06:44.7378198-05:00 0HNIJ02GBJ1B4:00000009 [ERR] Error in BroadcastProvider.StartBroadcastAsync with message Exactly one of Token, Topic or Condition is required. (773394d2)
+2026-01-13T19:06:44.8189677-05:00 0HNIJ02GBJ1B4:00000009 [ERR] Error in BroadcastController.StartBroadcastAsync AuthToken = 5EAB37EC-84F2-41A7-9190-08F5C95EB620 with message    at FirebaseAdmin.Messaging.Message.CopyAndValidate()
+   at FirebaseAdmin.Messaging.FirebaseMessagingClient.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message)
+   at EndWire.Services.ServiceProviders.FcmNotification.PushFcmNotificationAsync(NotificationRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\FcmNotification.cs:line 72
+   at EndWire.Services.ServiceProviders.BroadcastProvider.StartBroadcastAsync(BroadcastRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\BroadcastProvider.cs:line 61
+   at EndWire.API.Controllers.BroadcastController.StartBroadcastAsync(String authToken) in C:\Users\rianm\source\repos\Endwire\Endwire.API\Controllers\BroadcastController.cs:line 34 (953bd90b)
+2026-01-13T19:06:44.8303910-05:00 0HNIJ02GBJ1B4:00000009 [INF] Response:
+StatusCode: 500
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2026-01-13T19:06:44.8384624-05:00 0HNIJ02GBJ1B4:00000009 [INF] ResponseBody: "AuthToken 5EAB37EC-84F2-41A7-9190-08F5C95EB620 StartBroadcastAsync failed with message Exactly one of Token, Topic or Condition is required.." (c7a8e6fd)
+2026-01-13T19:06:44.8470253-05:00 0HNIJ02GBJ1B4:00000009 [INF] Duration: 62917.7801ms (fbe12062)
+2026-01-13T19:07:02.1808445-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T19:07:02.2143051-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T19:07:02.5050263-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T19:07:02.5065646-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T19:07:02.5404298-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T19:07:08.4570106-05:00 0HNIJ03C0UL8I:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T19:07:36.4752655-05:00 0HNIJ03C0UL8I:00000009 [INF] {"token":"","condition":null,"data":{"userid":"91","channelid":"endwire-broadcast67X0F66TUICEINKC1RU2","calltoken":"006c5ada4e280e249f185432cc3498ad906IAB3YclAZYQfn2taewHsl1xp1+8HqfdYo6/ITaAcwqdpiqVBWjMICRGAEABE9B8UY+lnaQEAAQCvKDdW"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":"test"} (e1715240)
+2026-01-13T19:08:25.2812879-05:00  [INF] Now listening on: "https://localhost:7158" (d826f4b8)
+2026-01-13T19:08:25.2868770-05:00  [INF] Now listening on: "http://localhost:5158" (d826f4b8)
+2026-01-13T19:08:25.4095343-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2026-01-13T19:08:25.4135606-05:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2026-01-13T19:08:25.4411268-05:00  [INF] Content root path: "C:\Users\rianm\source\repos\Endwire\Endwire.API" (cc26f24e)
+2026-01-13T19:08:32.2796257-05:00 0HNIJ044NQ001:00000009 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/1.0/broadcast
+Accept: */*
+Host: localhost:7158
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 0
+sec-ch-ua-platform: [Redacted]
+authtoken: [Redacted]
+sec-ch-ua: "Microsoft Edge";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+sec-ch-ua-mobile: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+priority: [Redacted] (8b8e65b7)
+2026-01-13T19:09:02.6009734-05:00 0HNIJ044NQ001:00000009 [INF] {"token":"","condition":null,"data":{"userid":"91","channelid":"endwire-broadcast2W7U9JB08HLGUMRV7YF4","calltoken":"006c5ada4e280e249f185432cc3498ad906IACT9qF4bY1WPUVSEu5INxbIbFiIHjXR6UaexSZ9kjBP42gscTAICRGACgAETmNZw+lnaQAA"},"notification":{"title":"Start Broadcast","body":null,"image":null},"android":{"collapse_key":null,"restricted_package_name":null,"data":null,"notification":null,"fcm_options":null,"priority":"high","ttl":null},"webpush":null,"apns":null,"fcm_options":null,"topic":"test"} (c83bb5bd)
+2026-01-13T19:09:06.1067627-05:00 0HNIJ044NQ001:00000009 [ERR] Error in FcmNotification.PushFcmNotificationAsync with message Error:"invalid_grant", Description:"Invalid JWT Signature.", Uri:"" (7bff1343)
+2026-01-13T19:09:06.3388160-05:00 0HNIJ044NQ001:00000009 [ERR] Error in BroadcastProvider.StartBroadcastAsync with message Error:"invalid_grant", Description:"Invalid JWT Signature.", Uri:"" (b44b7c29)
+2026-01-13T19:09:06.5378215-05:00 0HNIJ044NQ001:00000009 [ERR] Error in BroadcastController.StartBroadcastAsync AuthToken = 5EAB37EC-84F2-41A7-9190-08F5C95EB620 with message    at Google.Apis.Auth.OAuth2.Responses.TokenResponse.FromHttpResponseAsync(HttpResponseMessage response, IClock clock, ILogger logger)
+   at Google.Apis.Auth.OAuth2.Requests.RequestExtensions.PostFormAsync(Object request, HttpClient httpClient, String url, AuthenticationHeaderValue authenticationHeaderValue, IClock clock, ILogger logger, CancellationToken taskCancellationToken)
+   at Google.Apis.Auth.OAuth2.ServiceAccountCredential.RequestAccessTokenAsync(CancellationToken taskCancellationToken)
+   at Google.Apis.Auth.OAuth2.TokenRefreshManager.RefreshTokenAsync()
+   at Google.Apis.Auth.TaskExtensions.<>c__DisplayClass0_0`1.<<WithCancellationToken>g__ImplAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Google.Apis.Auth.OAuth2.TokenRefreshManager.GetAccessTokenForRequestAsync(CancellationToken cancellationToken)
+   at Google.Apis.Auth.OAuth2.ServiceAccountCredential.GetAccessTokenForRequestAsync(String authUri, CancellationToken cancellationToken)
+   at Google.Apis.Auth.OAuth2.ServiceCredential.GetAccessTokenWithHeadersForRequestAsync(String authUri, CancellationToken cancellationToken)
+   at Google.Apis.Auth.OAuth2.ServiceCredential.InterceptAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Google.Apis.Http.ConfigurableMessageHandler.CredentialInterceptAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Google.Apis.Http.ConfigurableMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at FirebaseAdmin.Util.ErrorHandlingHttpClient`1.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FirebaseAdmin.Util.ErrorHandlingHttpClient`1.SendAndReadAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FirebaseAdmin.Util.ErrorHandlingHttpClient`1.SendAndDeserializeAsync[TResult](HttpRequestMessage request, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessagingClient.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message)
+   at EndWire.Services.ServiceProviders.FcmNotification.PushFcmNotificationAsync(NotificationRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\FcmNotification.cs:line 73
+   at EndWire.Services.ServiceProviders.BroadcastProvider.StartBroadcastAsync(BroadcastRequest request) in C:\Users\rianm\source\repos\Endwire\Endwire.Services\ServiceProviders\BroadcastProvider.cs:line 61
+   at EndWire.API.Controllers.BroadcastController.StartBroadcastAsync(String authToken) in C:\Users\rianm\source\repos\Endwire\Endwire.API\Controllers\BroadcastController.cs:line 34 (160ea5ec)
+2026-01-13T19:09:06.5476795-05:00 0HNIJ044NQ001:00000009 [INF] Response:
+StatusCode: 500
+Content-Type: text/plain; charset=utf-8 (8b8e65b7)
+2026-01-13T19:09:06.5550424-05:00 0HNIJ044NQ001:00000009 [INF] ResponseBody: "AuthToken 5EAB37EC-84F2-41A7-9190-08F5C95EB620 StartBroadcastAsync failed with message Error:\"invalid_grant\", Description:\"Invalid JWT Signature.\", Uri:\"\"." (c7a8e6fd)
+2026-01-13T19:09:06.5926943-05:00 0HNIJ044NQ001:00000009 [INF] Duration: 34288.596ms (fbe12062)
